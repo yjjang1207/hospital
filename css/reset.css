@@ -1,4 +1,4 @@
-body, header, main ,footer, div, ul, li, dl, dt, dd, nav, h1, h2, h3, p, form, fieldset, address {
+html, body, header, main ,footer, div, ul, li, dl, dt, dd, nav, h1, h2, h3, p, form, fieldset, address {
     margin: 0;
     padding: 0;
 }
@@ -9,12 +9,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
-button {
-    background: none;
-}
 body {
     line-height: 1.5em;
-    font-family: NotoSansKR, '돋움', Dotum, '굴림체', Gulim, Aria, Helvetica, AppleGothic, Sans-serif;
+    font-family: 'Noto Sans KR', '돋움', Dotum, '굴림체', Gulim, Aria, Helvetica, AppleGothic, Sans-serif;
     font-size: 13px;
 }
 button {
