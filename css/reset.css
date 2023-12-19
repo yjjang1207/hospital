@@ -1,4 +1,4 @@
-html, body, header, main ,footer, div, ul, li, dl, dt, dd, nav, h1, h2, h3, p, form, fieldset, address {
+body, header, main, footer, h1, h2, p, div, nav, form, fieldset, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -9,24 +9,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
-body {
-    line-height: 1.5em;
-    font-family: 'Noto Sans KR', '돋움', Dotum, '굴림체', Gulim, Aria, Helvetica, AppleGothic, Sans-serif;
-    font-size: 13px;
-}
 button {
-    cursor: pointer;
     background: none;
     border: none;
-}
-.hide {
-    position: absolute;
-    width: 0 !important;
-    height: 0 !important;
-    overflow: hidden;
-    margin: -1px;
-    text-indent: -9999px;
-    border: none !important;
+    cursor: pointer;
 }
 address {
     font-style: normal;
@@ -34,12 +20,24 @@ address {
 fieldset, img {
     border: none;
 }
-input {
-    border: 1px solid #000;
+img {
+    vertical-align: bottom;
 }
-
-
-/* skip menu */
+input, button {
+    vertical-align: center;
+}
+input {
+    outline: none;
+}
+.hide {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: -1px;
+    text-indent: -9999px;
+    border: none;
+}
 .skip_menu {
     position: absolute;
     left: 0;
@@ -55,5 +53,5 @@ input {
     top: -50px;
 }
 .skip_menu a:focus, .skip_menu a:hover {
-    top:0           
+    top: 0;
 }
