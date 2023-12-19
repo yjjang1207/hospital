@@ -1,0 +1,38 @@
+body,
+header,
+main,
+footer,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+span,
+a,
+p,
+address,
+div,
+img {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+address {
+  font-style: normal;
+}
+ul,
+li {
+  list-style: none;
+}
+.hide {
+  position: absolute; /*앱솔루트를 사용하면 부모 자식이 인식을 못하는 상태로 떠서 어디로든 이동 가능*/
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin: -1px; /*포지션과 같은 의미*/
+  text-indent: -9999px; /*위 세개와 같은 의미*/
+}
