@@ -1,4 +1,4 @@
-body, header, main, footer, h1, h2, p, div, nav, form, fieldset, ul, li {
+body, header, main, footer, h1, h2, p, div, nav, form, fieldset, ul, li, button {
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,7 @@ ul, li {
 a {
     text-decoration: none;
     color: inherit;
+    vertical-align: bottom;
 }
 button {
     background: none;
@@ -24,10 +25,11 @@ img {
     vertical-align: bottom;
 }
 input, button {
-    vertical-align: center;
+    vertical-align: bottom;
 }
 input {
     outline: none;
+    border: 1px solid #000;
 }
 .hide {
     position: absolute;

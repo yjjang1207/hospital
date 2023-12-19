@@ -1,0 +1,274 @@
+/* 탑배너 */
+.top_banner_wrap{
+    background: linear-gradient(to right, #93bcda 30%, #d5e6ed 70%);
+}
+.top_banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.top_banner img {
+    width: 100%;
+}
+.top_banner_btn span {
+    width: 1px;
+    height: 12px;
+    display: block;
+    background: #aaa;
+}
+.top_banner_btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+}
+
+/* 헤더 */
+header {
+    position: relative;
+    z-index: 5;
+}
+/* 탑메뉴 */
+.top_menu_wrap {
+    /* background: #767676;
+    color: #fff; */
+    padding: 5px;
+}
+.top_menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center ul {
+    display: flex;
+    gap: 15px;
+}
+.center ul li:hover {
+    /* color: #004b88; */
+    color: #05a8ab;
+    font-weight: bold;
+}
+.util_wrap {
+    display: flex;
+    align-items: flex-end;
+    gap: 19px;
+}
+.util_menu ul {
+    display: flex;
+    gap: 19px;
+}
+.language ul {
+    display: none;
+}
+.search {
+    position:relative;
+}
+#search_txt {
+    width: 170px;
+    padding: 3px 20px 3px 3px;
+    box-sizing: border-box;
+}
+.search_btn {
+    width: 17px;
+    height: 17px;
+    background: url(../images/search.png) no-repeat center/17px 17px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+
+
+/* GNB */
+.logo img {
+    width: 270px;
+}
+.gnb_logo_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gnb > ul {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.gnb_line {
+    border-bottom: 1px solid #05a8ab;
+    position: relative;
+    z-index: 3;
+    top: 50px;
+    display: none;
+}
+.gnb > ul > li > a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+.gnb > ul > li > ul > li {
+    padding-bottom: 10px;
+}
+.gnb > ul > li > ul {
+    display: none;
+}
+
+
+/* 메인 */
+main {
+    position: relative;
+    z-index: 2;
+}
+
+/* 메인이미지 */
+.main_image_wrap {
+    max-width: 1200px;
+    margin: 10px auto 50px;
+    position: relative;
+}
+.main_image img {
+    width: 350px;
+    height: 400px;
+}
+.main_image ul li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_image p {
+    width: 360px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.numbers ul {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    left: 300px;
+    bottom: 30px;
+}
+.numbers li {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/circle.png) no-repeat center/10px 10px;
+    text-indent: -9999px;
+}
+.numbers ul li:first-child {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/circle_c.png) no-repeat center/10px 10px;
+    text-indent: -9999px;
+}
+
+/***** 메인 이미지 display none *****/
+.main_image .nurse_test, .main_image .job_rate, .main_image .robot, .main_image .mobile_app, .main_image .first_grade {
+    display: none;
+}
+
+/* 진료예약 */
+.reservation h2 {
+    width: 1200px;
+    margin: 0 auto 10px;
+}
+.reservation_wrap {
+    background: #05a8ab14;
+    padding: 10px 0;
+    color: #4c4c4c;
+
+}
+.form_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.reservation fieldset {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    gap: 15px;
+    justify-content: center;
+}
+.reservation form {
+    /* border: 3px solid #fff; */
+    padding: 15px 15px 15px 30px;
+    border-radius: 10px;
+}
+.reservation label {
+    margin-right: 15px;
+}
+.reservation fieldset div {
+    /* border-bottom: 2px solid #fff; */
+    padding-bottom: 15px;
+}
+.reservation .agree_wrap {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.form_wrap #p_name {
+    border: 1px solid #eee;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
+.form_wrap .p_tel_wrap input {
+    border: 1px solid #eee;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+.form_wrap #p_symptom {
+    border: 1px solid #eee;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+}
+.p_name_wrap {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.p_tel_wrap {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.p_symptom_wrap {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.agree_wrap p {
+    padding-top: 5px;
+}
+.form_wrap input {
+    padding: 5px;
+    box-sizing: border-box;
+}
+.reservation_complete {
+    display: block;
+    width: 150px;
+    height: 45px;
+    border: 5px solid #fff;
+    font-weight: bold;
+    font-size: 18px;
+    color: #808080;
+    /* padding: 8px 35px; */
+    margin-top: 15px;
+    margin-left: 235px;
+}
+
+
+
+
+main {
+    margin-bottom: 500px;
+}
