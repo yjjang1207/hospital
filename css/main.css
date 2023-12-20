@@ -1,0 +1,49 @@
+/* 메인 */
+main {
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* 메인이미지 */
+.main_image {
+    margin: 0 auto;
+    position: relative;
+    background: #f5f0f3;
+    padding: 10px 0 10px;
+}
+.main_image > ul > li > img {
+    width: 360px;
+    height: 400px;
+}
+.main_image ul li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+}
+.main_image ul li p {
+    width: 400px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.main_image1_p1 {
+    font-size: 20px;
+    color: #fff;
+}
+.main_image1_p2 {
+    font-size: 35px;
+    color: gold;
+    font-weight: bold;
+}
+.main_image1_p3 {
+    font-size: 35px;
+    color: gold;
+    font-weight: bold;
+}
+
+
+.main_image .main_image2, .main_image .main_image3, .main_image .main_image4, .main_image .main_image5, .main_image .main_image6 {
+    display: none;
+}
