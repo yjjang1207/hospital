@@ -32,10 +32,6 @@ header {
     height: 100px;
     position: relative;
     z-index: 3;
-    background: #f5f0f3;
-}
-header:hover {
-    background: #fff;
 }
 header:hover .nav_bg {
     display: block;
@@ -57,7 +53,7 @@ header:hover .two_depth {
     position: absolute;
     left: 0;
     top: 100px;
-    background: #eee;
+    background: #fff;
 
     display: none;
 }

@@ -6,44 +6,357 @@ main {
 }
 
 /* 메인이미지 */
-.main_image {
-    margin: 0 auto;
+.main_image_wrap {
+    max-width: 1200px;
     position: relative;
-    background: #f5f0f3;
-    padding: 10px 0 10px;
+    margin: 0 auto 60px;
 }
-.main_image > ul > li > img {
-    width: 360px;
-    height: 400px;
-}
-.main_image ul li {
-    position: relative;
+.main_image > ul > li {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 220px;
+    padding: 10px 0;
 }
-.main_image ul li p {
+.main_image > ul > li > div {
     width: 400px;
     text-align: center;
-    line-height: 1.5em;
 }
+.main_image ul div p {
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+/* 메인이미지 1 */
 .main_image1_p1 {
     font-size: 20px;
-    color: #fff;
 }
 .main_image1_p2 {
     font-size: 35px;
     color: gold;
-    font-weight: bold;
 }
 .main_image1_p3 {
     font-size: 35px;
     color: gold;
-    font-weight: bold;
 }
 
+/* 메인이미지 2 */
+.main_image2_p1 {
+    font-size: 20px;
+}
+.main_image2_p2 {
+    font-size: 35px;
+    color: #cca181;
+}
+.main_image2_p3 {
+    font-size: 35px;
+    color: gold;
+}
+
+/* 메인이미지 3 */
+.main_image3_p1 {
+    font-size: 20px;
+}
+.main_image3_p2 {
+    font-size: 35px;
+    color: #16f1d4;
+    margin-bottom: 20px;
+}
+.main_image3_p3 {
+    font-size: 20px;
+}
+.main_image3_p4 {
+    font-size: 35px;
+    color: #d7b16d;
+}
+
+/* 메인이미지 4 */
+.main_image4_p1 {
+    font-size: 35px;
+    color: #21326d;
+
+}
+.main_image4_p2 {
+    font-size: 25px;
+    color: gray;
+}
+
+/* 메인이미지 5 */
+.main_image5_p1 {
+    font-size: 20px;
+    color: #2d7587;
+}
+.main_image5_p2 {
+    font-size: 20px;
+    color: gray;
+}
+.main_image5_p3 {
+    font-size: 35px;
+    color: #27535f;
+}
+
+/* 메인이미지 6 */
+.main_image6_p1 {
+    font-size: 35px;
+    color: #d7a422;
+}
+.main_image6_p2 {
+    font-size: 35px;
+    color: #d7a422;
+}
 
 .main_image .main_image2, .main_image .main_image3, .main_image .main_image4, .main_image .main_image5, .main_image .main_image6 {
     display: none;
+}
+
+/* 슬라이드 */
+.numbers li:first-child {
+    width: 15px;
+    height: 15px;
+    background: url(../images/circle_c.png)no-repeat center/15px 15px;
+    text-indent: -9999px;
+}
+.numbers li {
+    width: 15px;
+    height: 15px;
+    background: url(../images/circle.png)no-repeat center/15px 15px;
+    text-indent: -9999px;
+}
+
+.numbers ul {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    left: 175px;
+    bottom: 40px;
+}
+
+
+/* 바로가기 메뉴 */
+.shortcut_menu {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.shortcut_menu > div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+/* .shortcut_menu img {
+    width: 50px;
+} */
+.shortcut_menu span {
+    width: 18px;
+    height: 2px;
+    display: block;
+    background: #004b88;
+    text-align: center;
+}
+
+.new_reservation {
+    border: 1px solid #cbcbcb;
+    border-top: 3px solid #004b88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#p_name {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    display: block;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0 auto 5px;
+}
+#p_tel {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    display: block;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0 auto 5px;
+}
+/* #p_symptom {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    display: block;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0 auto 5px;
+} */
+/* .agree_wrap label {
+    font-size: 14px;
+}
+.agree_wrap p {
+    font-size: 13px;
+} */
+form {
+    width: 270px;
+}
+.new_reservation_btn {
+    color: #3686cf;
+    border: 1px solid #3686cf;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+
+.online_reservation {
+    border: 1px solid #cbcbcb;
+    border-top: 3px solid #004b88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.online_reservation_btn {
+    color: #3686cf;
+    border: 1px solid #3686cf;
+    padding: 7px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+.medical_department {
+    border: 1px solid #cbcbcb;
+    border-top: 3px solid #004b88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.medical_depart_btn_wrap {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+.medical_depart_btn_wrap a {
+    color: #3686cf;
+    border: 1px solid #3686cf;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.find_doctor {
+    border: 1px solid #cbcbcb;
+    border-top: 3px solid #05a8ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.find_doctor_btn {
+    color: #3686cf;
+    border: 1px solid #3686cf;
+    padding: 7px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+.certificate {
+    border: 1px solid #cbcbcb;
+    border-top: 3px solid #05a8ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.certificate_btn_wrap {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+.certificate_btn_wrap a {
+    color: #3686cf;
+    border: 1px solid #3686cf;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.call_center {
+    border: 1px solid #cbcbcb;
+    border-top: 3px solid #05a8ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.shortcut_menu a:hover {
+    color: #fff;
+    background: #3686cf;
+}
+
+
+/* 전문 센터 */
+.medical_center_bg {
+    background: #004b88;
+    padding: 20px;
+    margin-bottom: 600px;
+}
+
+.medical_center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.medical_center h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.medical_center ul {
+    display: flex;
+    justify-content: space-between;
+}
+.medical_center img {
+    width: 100px;
+}
+.medical_center ul li {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medical_center ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.medical_center p {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.special_center, .cooperation_center {
+    background: #05a8ab;
+}
+.health_center, .stroke_center {
+    background: #3686cf;
 }
