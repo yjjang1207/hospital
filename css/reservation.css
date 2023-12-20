@@ -1,0 +1,48 @@
+.reservation_main {
+  position: relative;
+  z-index: 1;
+}
+.reservation {
+  max-width: 1200px;
+  display: flex;
+  margin: 100px auto;
+}
+.reservation_side_menu {
+  width: 218px;
+  text-align: end;
+  padding-top: 30px;
+  border: 1px solid #cbcbcb;
+}
+.reservation_side_menu h2 {
+  font-size: 35px;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 10px 30px 25px 0;
+}
+.reservation_side_menu ul li {
+  font-size: 18px;
+  padding: 20px 30px 10px 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+.reservation_side_menu ul li:hover {
+  text-decoration: underline;
+}
+/*--*/
+.reservation_guide {
+  padding-left: 80px;
+}
+.guide_title {
+  margin-bottom: 30px;
+}
+.guide_title h3 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+.guide_01,
+.guide_02,
+.guide_03,
+.guide_04 {
+  display: flex;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #cbcbcb;
+}
