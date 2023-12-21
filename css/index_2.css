@@ -16,17 +16,28 @@
   margin-bottom: 10px;
 }
 .notice_first {
+  position: relative;
   display: flex;
   justify-content: center;
 
-  border-bottom: 1px solid #00a9ac;
   margin-bottom: 20px;
+}
+.notice_first::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 1px;
+  background-color: #12b8ba;
 }
 .notice_first li {
   width: 25%;
   padding: 15px 20px;
   text-align: center;
   border: 1px solid #cbcbcb;
+  border-left: none;
 }
 .notice_first li:first-child {
   border: 1px solid #00a9ac;
@@ -47,7 +58,7 @@
 .eulji_employment ul li,
 .eulji_bid ul li {
   width: 330px;
-  height: 180px;
+  height: 130px;
   border: 1px solid #cbcbcb;
   padding: 28px;
   margin-bottom: 18px;
@@ -57,26 +68,83 @@
 .eulji_bid {
   display: none;
 }
+/*-*/
+.eulji_news ul li:hover {
+  border: 2px solid #00a9ac;
+  padding: 27px;
+}
+.eulji_news ul li a {
+  display: flex;
+  flex-direction: column;
+}
+.eulji_news ul li a span {
+  display: block;
+}
+.eulji_news ul li a .date {
+  font-size: 15px;
+  color: #00a9ac;
+  padding-bottom: 20px;
+}
+.eulji_news ul li a .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+.eulji_news ul li a .txt {
+  height: 42px;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: clip;
+  line-height: 20px;
+}
 /*--*/
 .doctor {
   background: #d4ecf8;
+  padding-top: 30px;
 }
-.img_doctor {
+.doctor_img_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
-  margin: 0 auto 100px;
-  text-align: center;
+  margin: auto;
 }
-.img_doctor img {
+.doctor_img_name img {
   margin-right: 50px;
 }
-.img_doctor span {
+.doctor_img_name span {
   font-size: 20px;
   font-weight: bold;
 }
+.doctor_name {
+  display: flex;
+  flex-direction: column;
+}
 /*--*/
+.e_ad_bg {
+  background: #eee;
+  padding: 30px 0;
+  margin-bottom: 50px;
+}
 .e_ad {
   max-width: 1200px;
   margin: 0 auto 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.e_ad_title {
+  text-align: center;
+  margin: 50px 0;
+}
+.e_ad_title h2 {
+  margin-bottom: 10px;
+}
+
+.e_ad_inner {
   display: flex;
   justify-content: space-between;
 }
@@ -84,6 +152,7 @@
   border: 1px solid #cbcbcb;
   border-top: 2px solid #00a9ac;
   padding: 20px 30px;
+  background: #fff;
 }
 .e_leaflet_title {
   display: flex;
@@ -98,7 +167,25 @@
   height: 30px;
 }
 .e_leaflet_inner ul li {
-  margin-bottom: 10px;
+  width: 380px;
+}
+.e_leaflet_inner ul li a {
+  display: flex;
+  align-items: center;
+}
+.e_leaflet_inner ul li a img {
+  width: 130px;
+  margin-right: 20px;
+}
+/*--*/
+.ad ul {
+  border: 1px solid #cbcbcb;
+  border-top: 2px solid #00a9ac;
+  padding: 10px 10px 10px 250px;
+  background: #fff;
+}
+.ad img {
+  width: 400px;
 }
 /*--*/
 .map {
@@ -131,4 +218,8 @@
 }
 .map_road {
   text-align: center;
+}
+.map_road img {
+  border: none;
+  width: 1000px;
 }
