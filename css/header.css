@@ -3,13 +3,13 @@
     background: linear-gradient(to right, #93bcda 30%, #d5e6ed 70%);
 }
 .top_banner {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
     
 }
 .top_banner img {
-    width: 100%;
+    height: 100px;
 }
 .top_banner_btn span {
     width: 1px;
@@ -45,6 +45,7 @@ header:hover .two_depth {
 }
 .logo img {
     width: 270px;
+    height: 35px;
     margin-top: 40px;
 }
 

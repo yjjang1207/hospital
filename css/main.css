@@ -10,19 +10,18 @@ main {
     width: 650px;
 }
 .main_image_wrap {
-    background: floralwhite;
+    background: #fff5e0;
 }
 .main_image {
     max-width: 1200px;
     position: relative;
     margin: 0 auto 60px;
-    padding-bottom: 30px;
+    padding: 15px;
 }
 .main_image > ul > li {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
 }
 .main_image > ul > li > div {
     width: 400px;
@@ -148,13 +147,13 @@ main {
     margin: 0 auto 60px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 .shortcut_menu > div {
-    width: 300px;
-    height: 300px;
+    width: 370px;
+    height: 370px;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
     position: relative;
 }
@@ -175,7 +174,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
 }
 #p_name {
     width: 200px;
@@ -197,7 +196,7 @@ main {
     box-sizing: border-box;
     margin: 0 auto 5px;
 }
-/* #p_symptom {
+#p_symptom {
     width: 200px;
     height: 30px;
     border: 1px solid #cbcbcb;
@@ -206,24 +205,24 @@ main {
     padding: 3px;
     box-sizing: border-box;
     margin: 0 auto 5px;
-} */
-/* .agree_wrap label {
+}
+.agree_wrap label {
     font-size: 14px;
 }
 .agree_wrap p {
     font-size: 13px;
-} */
+}
 .shortcut_menu form {
     width: 270px;
 }
 .new_reservation_btn {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 5px;
     font-size: 16px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 
@@ -234,15 +233,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
 }
 .online_reservation_btn {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 5px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 
@@ -252,18 +251,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
 }
 .medical_depart_btn_wrap {
     display: flex;
     gap: 10px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 .medical_depart_btn_wrap a {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
 
@@ -274,15 +273,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
 }
 .find_doctor_btn {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 5px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 
@@ -292,18 +291,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
 }
 .certificate_btn_wrap {
     display: flex;
     gap: 10px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 .certificate_btn_wrap a {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
 
@@ -314,7 +313,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
 }
 
 .shortcut_menu a:hover {
