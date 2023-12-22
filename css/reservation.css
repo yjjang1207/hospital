@@ -5,12 +5,12 @@
 .reservation_wrap {
   max-width: 1200px;
   display: flex;
-  margin: 50px auto 100px;
+  margin: auto;
 }
 .reservation_side_menu {
   width: 219px;
   text-align: end;
-  padding-top: 30px;
+  padding-top: 50px;
   border-right: 1px solid #cbcbcb;
 }
 .reservation_side_menu h2 {
@@ -36,6 +36,7 @@
 .reservation_guide {
   width: 900px;
   padding-left: 80px;
+  margin-top: 50px;
 }
 .guide_title {
   margin-bottom: 30px;
@@ -106,6 +107,7 @@
   border: 1px solid #cbcbcb;
   padding: 10px 0 10px 20px;
   font-size: 14px;
+  margin-bottom: 100px;
 }
 .manager img {
   margin-right: 10px;

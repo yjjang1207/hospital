@@ -1,48 +1,59 @@
-body,
-header,
-main,
-footer,
-h1,
-h2,
-h3,
-h4,
-ul,
-li,
-span,
-a,
-p,
-address,
-div,
-img,
-form,
-fieldset,
-legend,
-label {
-  padding: 0;
-  margin: 0;
+body, header, main, footer, h1, h2, h3, p, div, nav, form, fieldset, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
 }
 a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
+    vertical-align: bottom;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 address {
-  font-style: normal;
+    font-style: normal;
 }
-ul,
-li {
-  list-style: none;
+fieldset, img {
+    border: none;
 }
-form,
-fieldset,
-legend,
-label {
-  border-style: none;
+img {
+    vertical-align: bottom;
+}
+input, button {
+    vertical-align: bottom;
+}
+input {
+    outline: none;
+    border: 1px solid #000;
 }
 .hide {
-  position: absolute; /*앱솔루트를 사용하면 부모 자식이 인식을 못하는 상태로 떠서 어디로든 이동 가능*/
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  margin: -1px; /*포지션과 같은 의미*/
-  text-indent: -9999px; /*위 세개와 같은 의미*/
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: -1px;
+    text-indent: -9999px;
+    border: none;
+}
+.skip_menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+}
+.skip_menu a {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: -50px;
+}
+.skip_menu a:focus, .skip_menu a:hover {
+    top: 0;
 }

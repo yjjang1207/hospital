@@ -1,0 +1,130 @@
+.faq_main {
+  position: relative;
+  z-index: 1;
+}
+.faq_wrap {
+  max-width: 1200px;
+  display: flex;
+  margin: 50px auto 100px;
+}
+.faq_side_menu {
+  width: 218px;
+  text-align: end;
+  padding-top: 30px;
+  border-right: 1px solid #cbcbcb;
+}
+.faq_side_menu h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 20px;
+}
+.faq_side_menu ul li {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px 15px 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+.faq {
+  background: #3586cf;
+  color: #fff;
+}
+.guide:hover,
+.visit:hover {
+  text-decoration: underline;
+}
+/*--*/
+.question {
+  width: 900px;
+  padding-left: 80px;
+}
+.question_title {
+  margin-bottom: 30px;
+}
+.question_title h3 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+.question_txt {
+  margin-bottom: 50px;
+}
+.question_txt p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+/*--*/
+.question_top_menu ul {
+  width: 600px;
+  display: flex;
+  margin-bottom: 30px;
+  text-align: center;
+  /* border: 1px solid #cbcbcb; */
+}
+.question_top_menu ul li {
+  width: 60px;
+  padding: 10px 30px;
+  border: 1px solid #cbcbcb;
+  border-left: none;
+}
+.question_top_menu ul li:first-child {
+  border: 1px solid #3586cf;
+  background: #3586cf;
+  color: #fff;
+}
+/*--*/
+.question_inner ul {
+  border-top: 2px solid #3586cf;
+  border-bottom: 2px solid #3586cf;
+  margin-bottom: 20px;
+}
+.question_inner ul li {
+  border-bottom: 1px solid #cbcbcb;
+}
+/*--*/
+.question_munber {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.question_munber a {
+  padding: 5px;
+  margin: 0 5px;
+}
+.question_munber a:first-child {
+  color: #3586cf;
+}
+/*--*/
+.question_form {
+  text-align: center;
+  background: #e9e9e9;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.question_form select {
+  border: 1px solid #cbcbcb;
+  width: 90px;
+  height: 25px;
+}
+.question_form input {
+  border: 1px solid #cbcbcb;
+  padding-left: 10px;
+  line-height: 13px;
+  width: 300px;
+  height: 25px;
+}
+.question_form button {
+  border: 1px solid #8d8d8d;
+  background: #8d8d8d;
+  color: #fff;
+  padding: 2px 12px;
+}
+/*--*/
+.manager {
+  display: flex;
+  border: 1px solid #cbcbcb;
+  padding: 10px 0 10px 20px;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.manager img {
+  margin-right: 10px;
+}
