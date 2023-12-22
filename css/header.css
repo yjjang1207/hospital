@@ -47,6 +47,19 @@ header:hover .two_depth {
     width: 270px;
     margin-top: 40px;
 }
+
+
+/* GNB */
+.gnb {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.border_line {
+    width: 100%;
+    border-bottom: 1px solid #05a8ab;
+    position: absolute;
+    top: 97px;
+}
 .nav_bg {
     width: 100%;
     height: 285px;
@@ -54,14 +67,9 @@ header:hover .two_depth {
     left: 0;
     top: 100px;
     background: #fff;
+    border-bottom: 2px solid #05a8ab;
 
     display: none;
-}
-
-/* GNB */
-.gnb {
-    max-width: 900px;
-    margin: 0 auto;
 }
 .gnb > ul {
     display: flex;
@@ -88,30 +96,50 @@ header:hover .two_depth {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
     position: relative;
     top: -80px;
+    color: gray;
+    font-size: 13px;
 }
 .center ul {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 20px;
 
 }
 .util_wrap {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 15px;
 }
 .util_menu > ul {
     display: flex;
     gap: 15px;
 }
-.util_menu > ul > li > ul {
+.language {
+    position: relative;
+}
+.lang_bg {
+    background: #fff;
+    border: 0.5px solid #cbcbcb;
+    padding: 3px 5px;
+    position: absolute;
+    top: 20px;
     display: none;
 }
+.lang_bg li {
+    padding: 3px;
+}
+.language:hover .lang_bg {
+    display: block;
+}
 
+
+.search {
+    position: relative;
+}
 #search_txt {
     width: 150px;
     height: 20px;
@@ -124,6 +152,6 @@ header:hover .two_depth {
     background: url(../images/search.png)no-repeat center/17px 17px;
     text-indent: -9999px;
     position: absolute;
-    top: 1.5px;
+    top: 2px;
     right: 2px;
 }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      header,
+      main,
+      footer,
+      h1,
+      h2,
+      h3,
+      h4,
+      ul,
+      li,
+      span,
+      a,
+      p,
+      address,
+      div,
+      img,
+      form,
+      fieldset,
+      legend,
+      label {
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      address {
+        font-style: normal;
+      }
+      ul,
+      li {
+        list-style: none;
+      }
+      form,
+      fieldset,
+      legend,
+      label {
+        border-style: none;
+      }
+      .hide {
+        position: absolute; /*앱솔루트를 사용하면 부모 자식이 인식을 못하는 상태로 떠서 어디로든 이동 가능*/
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        margin: -1px; /*포지션과 같은 의미*/
+        text-indent: -9999px; /*위 세개와 같은 의미*/
+      }
+
+      /**/
+      .visit_side_menu {
+        width: 218px;
+        text-align: end;
+        padding-top: 30px;
+        border-right: 1px solid #cbcbcb;
+      }
+      .visit_side_menu h2 {
+        font-size: 30px;
+        border-bottom: 1px solid #cbcbcb;
+        padding: 20px;
+      }
+      .visit_side_menu ul li {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px 20px 15px 0;
+        border-bottom: 1px solid #cbcbcb;
+      }
+      .visit {
+        background: #3586cf;
+        color: #fff;
+      }
+      .guide:hover,
+      .faq:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="visit_side_menu">
+      <h2>예약안내</h2>
+      <div>
+        <ul>
+          <li class="guide"><a href="#none">예약안내</a></li>
+          <li class="visit"><a href="#none">첫 방문고객 진료예약</a></li>
+          <li class="faq"><a href="#none">자주 묻는 질문</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

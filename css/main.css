@@ -203,13 +203,13 @@ main {
 .agree_wrap p {
     font-size: 13px;
 } */
-form {
+.shortcut_menu form {
     width: 270px;
 }
 .new_reservation_btn {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
     font-size: 16px;
     position: absolute;
@@ -229,7 +229,7 @@ form {
 .online_reservation_btn {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
@@ -253,7 +253,7 @@ form {
 .medical_depart_btn_wrap a {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -269,7 +269,7 @@ form {
 .find_doctor_btn {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
@@ -293,7 +293,7 @@ form {
 .certificate_btn_wrap a {
     color: #3686cf;
     border: 1px solid #3686cf;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
 }
 
