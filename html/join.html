@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  <link rel="stylesheet" type="text/css" href="../css/header.css">
+  <link rel="stylesheet" type="text/css" href="../css/join.css">
+  <script type="text/javascript" src="../js/join.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header_total">
+          <div class="menu_wrap">
+            <h1 class="logo"><a href="index.html">맛따라멋따라</a></h1>
+            <div class="menu">
+              <nav class="gnb">
+                <h2 class="hide">메인메뉴</h2>
+                <ul class="one_deps">
+                  <li>
+                    <a href="seoul.html" class="local">서울</a>
+                    <ul>
+                      <li><a href="#none">한식</a></li>
+                      <li><a href="#none">양식</a></li>
+                      <li><a href="#none">중식</a></li>
+                      <li><a href="#none">일식</a></li>
+                      <li><a href="#none">분식</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#none" class="local">인천</a>
+                    <ul>
+                      <li><a href="#none">한식</a></li>
+                      <li><a href="#none">양식</a></li>
+                      <li><a href="#none">중식</a></li>
+                      <li><a href="#none">일식</a></li>
+                      <li><a href="#none">분식</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#none" class="local">강원도</a>
+                    <ul>
+                      <li><a href="#none">한식</a></li>
+                      <li><a href="#none">양식</a></li>
+                      <li><a href="#none">중식</a></li>
+                      <li><a href="#none">일식</a></li>
+                      <li><a href="#none">분식</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#none" class="local">전라도</a>
+                    <ul>
+                      <li><a href="#none">한식</a></li>
+                      <li><a href="#none">양식</a></li>
+                      <li><a href="#none">중식</a></li>
+                      <li><a href="#none">일식</a></li>
+                      <li><a href="#none">분식</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#none" class="local">제주도</a>
+                    <ul>
+                      <li><a href="#none">한식</a></li>
+                      <li><a href="#none">양식</a></li>
+                      <li><a href="#none">중식</a></li>
+                      <li><a href="#none">일식</a></li>
+                      <li><a href="#none">분식</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#none" class="local">자랑하기</a></li>
+                  <li><a href="#none" class="local">제보하기</a></li>
+                </ul>
+                <div class="nav_bg"></div>
+              </nav>
+            </div>
+  
+            <div class="top_menu_wrap">
+              <div class="top_menu">
+                <div class="top">
+                  <a href="login.html" class="login">로그인</a>
+                  <a href="join.html" class="join">회원가입</a>
+                </div>
+                <form>
+                  <fieldset>
+                    <legend class="hide">검색</legend>
+                    <label for="search_txt" class="hide">입력</label>
+                    <input type="text" placeholder="검색" class="input" />
+                    <button type="button" class="btn">
+                      <img
+                        src="../images/free-icon-magnifier-2319177.png"
+                        alt="검색창버튼"
+                      />
+                      <span class="hide">검색</span>
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <h2>회원가입</h2>
+        <form>
+            <fieldset>
+                <legend class="hide">회원가입</legend>
+                <p class="u_id">
+                    <label for="u_id"></label>
+                    <input type="text" name="u_id" id="u_id" placeholder="아이디">
+                    <button type="button" class="id_repeat">중복확인</button>
+                </p>
+                <p class="u_pwd">
+                    <label for="u_pwd"></label>
+                    <input type="password" name="u_pwd" id="u_pwd" placeholder="비밀번호">
+                </p>
+                <p class="u_repwd">
+                    <label for="u_repwd"></label>
+                    <input type="password" name="u_repwd" id="u_repwd"  placeholder="비밀번호 확인">
+                </p>
+
+                <p class="u_name">
+                    <label for="u_name"></label>
+                    <input type="text" name="u_name" id="u_name" placeholder="이름">
+                </p>
+            
+                <p class="tel">
+                    <label for="tel"></label>
+                    <input type="text" id="tel" placeholder="휴대전화번호">
+                    <span class="tel_text">숫자만 입력하세요.</span>
+                </p>
+            
+                <p class="email">
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="이메일">
+                </p>
+
+                <p class="join_btn_wrap">
+                  <button type="button" class="prev_btn">이전으로</button>
+                  <button type="submit" class="join_btn">회원가입</button> 
+                </p>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer_total">
+          <div class="logo_copy">
+            <div class="bottom_logo">
+              <h2>
+                <a href="#none">
+                  <img
+                    src="../images/KakaoTalk_20231201_130839216.png"
+                    alt="스폰지밥그림"
+                  />
+                  <span class="hide">맛따라멋따라</span>
+                </a>
+              </h2>
+            </div>
+    
+            <div class="bottom_copy">
+              <div class="bottom_menu">
+                <a href="#none">개인정보처리방침</a>
+                <a href="#none">맛집 제보하기</a>
+                <a href="#none">사이트맵</a>
+              </div>
+    
+              <div>
+                <address>
+                  주소 : 서울 강남구 테헤란로5길 24, 장연빌딩/ 3~7층
+                </address>
+                <span>대표번호 : 02-3481-1005</span>
+              </div>
+              <p>copyright &copy; 맛따라멋따라 All rights reserved.</p>
+            </div>
+          </div>
+    
+          <div class="sns">
+            <a href="#none"><img src="../images/blogger_icon.png" alt="블로그" /></a>
+            <a href="#none">
+              <img src="../images/instagram_icon.png" alt="인스타그램" />
+            </a>
+            <a href="#none"><img src="../images/youtube_icon.png" alt="유튜브" /></a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

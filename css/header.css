@@ -44,8 +44,8 @@ header:hover .two_depth {
     margin: 0 auto;
 }
 .logo img {
-    width: 270px;
-    height: 35px;
+    /* width: 270px; */
+    height: 30px;
     margin-top: 40px;
 }
 
@@ -59,7 +59,7 @@ header:hover .two_depth {
     width: 100%;
     border-bottom: 1px solid #05a8ab;
     position: absolute;
-    top: 97px;
+    top: 100px;
 }
 .nav_bg {
     width: 100%;

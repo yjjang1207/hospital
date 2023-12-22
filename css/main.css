@@ -15,7 +15,7 @@ main {
 .main_image {
     max-width: 1200px;
     position: relative;
-    margin: 0 auto 60px;
+    margin: 0 auto 80px;
     padding: 15px;
 }
 .main_image > ul > li {
@@ -144,7 +144,7 @@ main {
 .shortcut_menu {
     display: flex;
     max-width: 1200px;
-    margin: 0 auto 60px;
+    margin: 0 auto 80px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
@@ -326,7 +326,7 @@ main {
 .medical_center_bg {
     background: #004b88;
     padding: 40px 0 70px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .medical_center {
