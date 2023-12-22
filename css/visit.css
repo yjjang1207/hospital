@@ -1,0 +1,145 @@
+.visit_main {
+  position: relative;
+  z-index: 1;
+}
+.visit_wrap {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.visit_side_menu {
+  width: 218px;
+  text-align: end;
+  padding-top: 30px;
+  border-right: 1px solid #cbcbcb;
+}
+.visit_side_menu h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 20px;
+}
+.visit_side_menu ul li {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px 15px 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+.visit {
+  background: #3586cf;
+  color: #fff;
+}
+.guide:hover,
+.faq:hover {
+  text-decoration: underline;
+}
+/*--*/
+.first_customer {
+  width: 900px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+.first_customer_title {
+  margin-bottom: 30px;
+}
+.first_customer_title h3 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+.first_customer_title p {
+  font-size: 13px;
+}
+.first_customer_inner {
+  margin-bottom: 50px;
+}
+.first_customer_inner p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.first_customer_inner p span {
+  color: #196cb9;
+}
+/*--*/
+.agree_wrap {
+  margin-bottom: 50px;
+}
+.process {
+  background: #f5f5f5;
+  font-size: 13px;
+  padding: 10px 5px;
+  line-height: 23px;
+}
+.process_use {
+  font-size: 15px;
+  color: #196cb9;
+}
+.agree_input {
+  display: flex;
+  justify-content: end;
+  padding: 5px 0 10px;
+}
+.agree_input div {
+  display: flex;
+  font-size: 13px;
+  margin-left: 30px;
+}
+/*-*/
+.first_visit_form {
+  margin-bottom: 50px;
+}
+.first_visit_form form {
+  border-top: 2px solid #196cb9;
+  margin-bottom: 10px;
+}
+.first_visit_form form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first_visit_form form fieldset span {
+  display: inline-block;
+  width: 200px;
+  margin-right: 10px;
+  text-align: center;
+}
+.first_visit_form form fieldset label {
+  margin-top: 20px;
+}
+.first_visit_form form fieldset input {
+  padding: 5px;
+  border: 1px solid #cbcbcb;
+}
+.phoen_title select {
+  border: 1px solid #cbcbcb;
+  padding: 4px 10px;
+}
+.phoen_title input {
+  width: 150px;
+}
+.name_title input,
+.sick_title input {
+  width: 415px;
+}
+.visit_btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.visit_btn button {
+  padding: 10px 20px;
+  border-style: none;
+}
+.visit_btn button:first-child {
+  background: #196cb9;
+  color: #fff;
+}
+/*--*/
+.manager {
+  display: flex;
+  border: 1px solid #cbcbcb;
+  padding: 10px 0 10px 20px;
+  font-size: 14px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.manager img {
+  margin-right: 10px;
+}

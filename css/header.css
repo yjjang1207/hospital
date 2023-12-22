@@ -89,6 +89,9 @@ header:hover .two_depth {
 .two_depth li {
     padding-bottom: 15px;
 }
+.two_depth li:hover {
+    color: #05a8ab;
+}
 
 /* 탑메뉴 */
 .top_menu {
@@ -107,7 +110,9 @@ header:hover .two_depth {
     display: flex;
     align-items: center;
     gap: 20px;
-
+}
+.center ul li:hover {
+    color: #05a8ab;
 }
 .util_wrap {
     display: flex;
