@@ -128,8 +128,12 @@
   border-style: none;
 }
 .visit_btn button:first-child {
+  border: 1px solid #196cb9;
   background: #196cb9;
   color: #fff;
+}
+.visit_btn button:last-child {
+  border: 1px solid #cbcbcb;
 }
 /*--*/
 .manager {

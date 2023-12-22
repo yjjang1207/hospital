@@ -94,3 +94,9 @@ thead tr th:nth-child(3)::after */
     justify-content: center;
     align-items: center;
 }
+.medical_essay_search_btn {
+    border: 1px solid #004b88;
+    color: #fff;
+    background: #004b88;
+    padding: 1px;
+}
