@@ -265,12 +265,16 @@
           <h2 class="hide">의료진광고</h2>
           <div class="doctor_img_name">
             <img src="../images/doctor1.png" alt="" />
-            <div class="doctor_name">
-              <span>심혈관질환</span>
-              <span>심장내과 최재웅 교수</span>
+            <div class="doctor_inner">
+              <p class="doctor_inner_title">가슴 통증을 놓치지 마라</p>
+              <p class="doctor_inner_txt">심혈관질환</p>
+              <p class="doctor_inner_name">심장내과 최재웅 교수</p>
+              <button type="button">
+                <p class="doctor_inner_btn">영상보러가기</p>
+              </button>
             </div>
-            <!-- <div><span>영상보러가기</span></div> -->
           </div>
+
           <!--<div class="img_doctor">
             <img src="../images/doctor2.png" alt="" />
             <span>심혈관질환</span>
@@ -292,16 +296,16 @@
             <span>심장내과 최재웅 교수</span>
           </div>-->
 
-          <!-- <div class="arrow">
+          <div class="arrow">
             <button type="button" class="big_left">
-              <img src="../images/big_left_arrow_icon.png" alt="" />
-              <span>전</span>
+              <img src="../images/prev_g.png" alt="" />
+              <span class="hide">이전</span>
             </button>
             <button type="button" class="big_right">
-              <img src="../images/big_right_arrow_icon.png" alt="" />
-              <span>전</span>
+              <img src="../images/next_g.png" alt="" />
+              <span class="hide">다음</span>
             </button>
-          </div> -->
+          </div>
         </div>
 
         <div class="e_ad_bg">
@@ -313,14 +317,15 @@
             <div class="e_ad_inner">
               <div class="e_leaflet">
                 <div class="e_leaflet_title">
-                  <h3>E-리플릿</h3>
-                  <img src="../images/more_icon.png" alt="" />
+                  <h3><a href="#none">E-리플릿</a></h3>
                 </div>
                 <div class="e_leaflet_inner">
                   <ul>
                     <li>
-                      <a href="#none">
-                        <img src="../images/health_01.PNG" alt="" />
+                      <div>
+                        <a href="#none">
+                          <img src="../images/health_01.PNG" alt="" />
+                        </a>
                         <div class="e_leaflet_inner_txt">
                           <strong>정형외과 Orthopedic Surgery</strong>
                           <span>
@@ -336,7 +341,7 @@
                             사진을 클릭하여 확인해 주시기 바랍니다.
                           </span>
                         </div>
-                      </a>
+                      </div>
                     </li>
                     <!-- <li>
                   <a href="#none">
@@ -351,6 +356,16 @@
                   </a>
                 </li> -->
                   </ul>
+                </div>
+                <div class="e_arrow">
+                  <button type="button" class="s_left">
+                    <img src="../images/small_prev.png" alt="" />
+                    <span class="hide">이전</span>
+                  </button>
+                  <button type="button" class="s_right">
+                    <img src="../images/small_next.png" alt="" />
+                    <span class="hide">다음</span>
+                  </button>
                 </div>
               </div>
 
@@ -405,19 +420,26 @@
             <ul>
               <li>
                 <a href="#none">
-                  <img src="../images/road.png" alt="" />
+                  <div class="icon_img">
+                    <img src="../images/road_b.png" alt="" />
+                  </div>
                   <span>오시는 길</span>
                 </a>
               </li>
               <li>
                 <a href="#none">
-                  <img src="../images/car.png" alt="" />
+                  <div class="icon_img">
+                    <img src="../images/car_b.png" alt="" />
+                  </div>
                   <span>주차안내</span>
                 </a>
               </li>
               <li>
                 <a href="#none">
-                  <img src="../images/building.png" alt="" />
+                  <div class="icon_img">
+                    <img src="../images/building_b.png" alt="" />
+                  </div>
+
                   <span>장례식장</span>
                 </a>
               </li>
@@ -425,7 +447,13 @@
 
             <div class="map_road">
               <h2 class="hide">병원지도</h2>
-              <a href=""></a> <img src="../images/map.jpg" alt="" />
+              <a
+                href="https://map.naver.com/p/entry/place/11797422?c=16.21,0,0,0,dh"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="../images/map.jpg" alt="" />
+              </a>
             </div>
           </div>
         </div>
