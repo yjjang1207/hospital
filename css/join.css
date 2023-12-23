@@ -1,84 +1,67 @@
-/* 메인 */
 main {
     max-width: 1200px;
-    margin: 0 auto 200px
+    margin: 50px auto 50px;
 }
+
 main h2 {
-    text-align: center;
-    margin: 120px 0 60px;
-    font-size: 35px
+    font-size: 30px;
+    margin-bottom: 50px;
 }
-main form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main input {
-    width: 260px;
-    border: 1px solid #cbcbcb;
-    padding: 15px;
-    box-sizing: border-box;
-    border-radius: 7px;
-}
-.u_id {
-    margin-bottom: 20px;
-    position: relative;
-}
-#u_id {
-    padding-right: 75px;
-    box-sizing: border-box;
-}
-.id_repeat {
-    position: absolute;
-    right: 7px;
-    top: 9px;
-    background: #FFB862;
-    color: #fff;
-    border: none;
-    padding:7px;
-    cursor: pointer;
-    border-radius: 7px;
-}
-.u_pwd {
-    margin-bottom: 20px;
-}
-.u_repwd {
-    margin-bottom: 20px;
-}
-.u_name {
-    margin-bottom: 20px;
-}
-#tel {
+main h3 {
+    font-size: 20px;
     margin-bottom: 5px;
 }
-.tel span {
-    color: gray;
-    font-size: 11px;
-    padding-left: 8px;
-    display: block;
-    margin-bottom: 13px;
+main p {
+    margin-bottom: 30px;
 }
-.email {
+main h4 {
+    margin-bottom: 5px;
+}
+.terms_personal {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+textarea {
+    width: 1000px;
+    height: 150px;
+    outline: none;
+}
+.agree_wrap1 {
+    width: 900px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.agree_wrap2 {
+    width: 900px;
+    text-align: right;
     margin-bottom: 70px;
 }
-.join_btn {
-    background: #FFB862;
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-size: 17px;
+
+#u_info {
+    border-top: 2px solid #004b88;
+    border-bottom: 2px solid #004b88;
+    /* padding: 20px; */
 }
-.prev_btn {
-    background: #FFB862;
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-size: 17px;
+#u_info label {
+    display: block;
+    width: 150px;
 }
-.join_btn_wrap {
+#u_info div {
+    border-bottom: 1px solid #cbcbcb;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    align-items: center;
+}
+#u_info input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.u_tel_wrap span {
+    margin: 0 8px;
+}
+.u_tel_wrap #u_tel_first {
+    width: 100px;
+    background: #eee;
 }
