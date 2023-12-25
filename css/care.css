@@ -1,0 +1,66 @@
+.care_main {
+  position: relative;
+  z-index: 1;
+}
+.care_wrap {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+}
+.care_side_menu {
+  width: 219px;
+  padding-top: 50px;
+  border-right: 1px solid #cbcbcb;
+}
+.care_side_menu h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 20px 20px 20px 10px;
+}
+.care_side_menu ul li {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px 15px 10px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.care {
+  background: #3586cf;
+  color: #fff;
+}
+.specialty:hover,
+.insurance_guide:hover {
+  text-decoration: underline;
+}
+/*--*/
+.care_total {
+  width: 900px;
+  padding-left: 80px;
+  margin-top: 50px;
+}
+.care_title {
+  margin-bottom: 30px;
+}
+.care_title h3 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+.care_title p {
+  font-size: 13px;
+}
+/*--*/
+.care_guide {
+  margin-bottom: 30px;
+}
+/*--*/
+.care_icon {
+  position: relative;
+}
+.care_icon ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.care_icon ul li a span {
+  position: absolute;
+}

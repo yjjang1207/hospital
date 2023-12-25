@@ -1,0 +1,289 @@
+.main {
+  position: relative;
+  z-index: 1;
+}
+/*--*/
+.notice {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.notice_title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.notice_title h2 {
+  margin-bottom: 10px;
+}
+.notice_first {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.notice_first::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 1px;
+  background-color: #12b8ba;
+}
+.notice_first li {
+  width: 25%;
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid #cbcbcb;
+  border-left: none;
+}
+.notice_first li:first-child {
+  border: 1px solid #00a9ac;
+  background: #00a9ac;
+  color: white;
+  font-weight: bold;
+}
+.eulji_news ul,
+.eulji_qna ul,
+.eulji_employment ul,
+.eulji_bid ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.eulji_news ul li,
+.eulji_qna ul li,
+.eulji_employment ul li,
+.eulji_bid ul li {
+  width: 350px;
+  height: 150px;
+  border: 1px solid #cbcbcb;
+  padding: 17px;
+}
+.eulji_qna,
+.eulji_employment,
+.eulji_bid {
+  display: none;
+}
+/*-*/
+.eulji_news ul li:hover {
+  border: 2px solid #00a9ac;
+  padding: 16px;
+}
+.eulji_news ul li a {
+  display: flex;
+  flex-direction: column;
+}
+.eulji_news ul li a span {
+  display: block;
+}
+.eulji_news ul li a .date {
+  font-size: 15px;
+  color: #00a9ac;
+  padding-bottom: 20px;
+}
+.eulji_news ul li a .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+.eulji_news ul li a .txt {
+  height: 42px;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: clip;
+  line-height: 20px;
+}
+/*--*/
+.doctor {
+  background: #d4ecf8;
+  padding-top: 30px;
+  position: relative;
+}
+.arrow button {
+  position: absolute;
+}
+.big_left {
+  top: 100px;
+  left: 150px;
+}
+.big_left img {
+  width: 100px;
+}
+.big_right {
+  top: 100px;
+  right: 150px;
+}
+.big_right img {
+  width: 100px;
+}
+.doctor_img_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+}
+.doctor_img_name img {
+  margin-right: 60px;
+}
+.doctor_img_name span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.doctor_inner {
+  display: flex;
+  flex-direction: column;
+}
+.doctor_inner_title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0 30px;
+}
+.doctor_inner_txt {
+  margin-bottom: 5px;
+}
+.doctor_inner_name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.doctor_inner button {
+  margin-top: 60px;
+  text-align: end;
+  padding: 10px;
+}
+.doctor_inner button:hover {
+  font-weight: bold;
+}
+/*--*/
+.e_ad_bg {
+  background: #eee;
+  padding: 50px 0;
+  margin-bottom: 80px;
+}
+.e_ad {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.e_ad_title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.e_ad_title h2 {
+  margin-bottom: 10px;
+}
+.e_ad_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.e_leaflet {
+  position: relative;
+  border: 1px solid #cbcbcb;
+  border-top: 2px solid #00a9ac;
+  padding: 20px 30px;
+  background: #fff;
+  height: 250px;
+  width: 500px;
+}
+.e_leaflet_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.e_leaflet_title h2 {
+  font-size: 25px;
+}
+.e_leaflet_title img {
+  width: 30px;
+  height: 30px;
+}
+.e_leaflet_inner ul li div {
+  display: flex;
+  justify-content: center;
+}
+.e_leaflet_inner ul li a img {
+  width: 130px;
+  margin-right: 20px;
+}
+.e_leaflet_inner_txt {
+  display: flex;
+  flex-direction: column;
+}
+.e_leaflet_inner_txt strong {
+  margin-bottom: 10px;
+}
+.e_leaflet_inner_txt span {
+  display: block;
+  height: 180px;
+  width: 300px;
+  overflow: hidden;
+  line-height: 20px;
+}
+.e_arrow button {
+  position: absolute;
+}
+.s_left img {
+  width: 30px;
+}
+.s_left {
+  top: 140px;
+  left: 0;
+}
+.s_right img {
+  width: 30px;
+}
+.s_right {
+  top: 140px;
+  right: 0;
+}
+/*--*/
+.ad img {
+  width: 550px;
+  height: 290px;
+}
+
+/*--*/
+.map {
+  max-width: 1200px;
+  margin: 0 auto 100px;
+}
+.map_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.map_title h2 {
+  margin-bottom: 10px;
+}
+.map_icon ul {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.icon_img {
+  border: 2px solid #004b88;
+  border-radius: 50%;
+}
+.map_icon ul img {
+  width: 70px;
+  padding: 20px;
+}
+.map_icon span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.map_road {
+  text-align: center;
+}
+.map_road img {
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hospitalinfo_side_menu {
+    width: 219px;
+    border-right: 1px solid #cbcbcb;
+}
+.hospitalinfo_side_menu h2 {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    padding: 50px 0 40px 20px;
+}
+.hospitalinfo_side_menu ul li {
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+.eulji60 a {
+    padding: 15px 120px 15px 15px ;
+}
+.biography a {
+    padding: 15px 120px 15px 15px ;
+}
+.hospitalinfo a {
+    padding: 15px 140px 15px 15px ;
+}
+.hospitalmap a {
+    padding: 15px 105px 15px 15px ;
+}
+.customersay a {
+    padding: 15px 120px 15px 15px ;
+}
+.notice a {
+    padding: 15px 140px 15px 15px ;
+}
+.notice {
+    background: #3586cf;
+    color: #fff;
+}
+.eulji60:hover, .biography:hover, .hospitalmap:hover, .customersay:hover, .hospitalinfor:hover {
+    text-decoration: underline;
+}

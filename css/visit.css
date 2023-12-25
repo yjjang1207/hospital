@@ -5,7 +5,7 @@
 .visit_wrap {
   max-width: 1200px;
   display: flex;
-  margin: 0 auto;
+  margin: 50px auto 100px;
 }
 .visit_side_menu {
   width: 218px;
@@ -36,7 +36,6 @@
 .first_customer {
   width: 900px;
   padding-left: 80px;
-  padding-top: 50px;
 }
 .first_customer_title {
   margin-bottom: 30px;
@@ -128,12 +127,8 @@
   border-style: none;
 }
 .visit_btn button:first-child {
-  border: 1px solid #196cb9;
   background: #196cb9;
   color: #fff;
-}
-.visit_btn button:last-child {
-  border: 1px solid #cbcbcb;
 }
 /*--*/
 .manager {
@@ -141,8 +136,7 @@
   border: 1px solid #cbcbcb;
   padding: 10px 0 10px 20px;
   font-size: 14px;
-  align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .manager img {
   margin-right: 10px;

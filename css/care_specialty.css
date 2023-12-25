@@ -1,0 +1,64 @@
+.specialty_main {
+  position: relative;
+  z-index: 1;
+}
+.specialty_wrap {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+}
+.specialty_side_menu {
+  width: 219px;
+  padding-top: 50px;
+  border-right: 1px solid #cbcbcb;
+}
+.specialty_side_menu h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 20px 20px 20px 10px;
+}
+.specialty_side_menu ul li {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px 15px 10px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.specialty {
+  background: #3586cf;
+  color: #fff;
+}
+.care:hover,
+.insurance_guide:hover {
+  text-decoration: underline;
+}
+/*--*/
+.specialty_total {
+  width: 900px;
+  padding-left: 80px;
+  margin-top: 50px;
+  position: relative;
+}
+.specialty_title {
+  margin-bottom: 30px;
+}
+.specialty_title h3 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+.specialty_title p {
+  font-size: 13px;
+}
+/*--*/
+.specialty_icon {
+  margin-top: 50px;
+}
+.specialty_icon ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.specialty_icon ul li span {
+  position: absolute;
+  bottom: 0;
+}
