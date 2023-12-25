@@ -3,19 +3,19 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
-.medicalessay_side_menu {
+.euljimagazine_side_menu {
     width: 219px;
     border-right: 1px solid #cbcbcb;
 }
-.medicalessay_side_menu h2 {
+.euljimagazine_side_menu h2 {
     font-size: 30px;
     font-weight: bold;
     border-bottom: 1px solid #cbcbcb;
-    padding: 50px 0 40px 20px;
+    padding: 50px 0px 40px 20px;
 }
-.medicalessay_side_menu ul li {
+.euljimagazine_side_menu ul li {
     font-size: 18px;
     padding: 15px 0;
     border-bottom: 1px solid #cbcbcb;
@@ -29,11 +29,11 @@ main {
 .ereplit a {
     padding: 15px 140px 15px 15px ;
 }
-.medicalessay {
+.euljimagazine {
     background: #3586cf;
     color: #fff;
 }
-.euljimagazine:hover, .ereplit:hover {
+.medicalessay:hover, .ereplit:hover {
     text-decoration: underline;
 }
 .medical_essay_wrap {
