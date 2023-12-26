@@ -5,28 +5,34 @@
 .visit_wrap {
   max-width: 1200px;
   display: flex;
-  margin: 50px auto 100px;
+  margin: auto;
 }
 .visit_side_menu {
   width: 218px;
-  text-align: end;
-  padding-top: 30px;
   border-right: 1px solid #cbcbcb;
 }
 .visit_side_menu h2 {
   font-size: 30px;
   border-bottom: 1px solid #cbcbcb;
-  padding: 20px;
+  padding: 50px 0 40px 20px;
 }
 .visit_side_menu ul li {
   font-size: 18px;
-  font-weight: bold;
-  padding: 15px 20px 15px 0;
+  padding: 15px 0;
   border-bottom: 1px solid #cbcbcb;
 }
 .visit {
   background: #3586cf;
   color: #fff;
+}
+.guide a {
+  padding: 15px 140px 15px 15px;
+}
+.visit a {
+  padding: 15px 53px 15px 15px;
+}
+.faq a {
+  padding: 15px 100px 15px 15px;
 }
 .guide:hover,
 .faq:hover {
@@ -41,8 +47,8 @@
   margin-bottom: 30px;
 }
 .first_customer_title h3 {
-  font-size: 30px;
-  margin: 20px 0 10px;
+  font-size: 25px;
+  margin: 60px 0 10px;
 }
 .first_customer_title p {
   font-size: 13px;
@@ -96,9 +102,8 @@
 }
 .first_visit_form form fieldset span {
   display: inline-block;
-  width: 200px;
-  margin-right: 10px;
-  text-align: center;
+  width: 100px;
+  text-align: left;
 }
 .first_visit_form form fieldset label {
   margin-top: 20px;
@@ -116,7 +121,7 @@
 }
 .name_title input,
 .sick_title input {
-  width: 415px;
+  width: 405px;
 }
 .visit_btn {
   text-align: center;
@@ -124,20 +129,20 @@
 }
 .visit_btn button {
   padding: 10px 20px;
-  border-style: none;
 }
 .visit_btn button:first-child {
+  border: 1px solid #196cb9;
   background: #196cb9;
   color: #fff;
 }
+.visit_btn button:last-child {
+  border: 1px solid #cbcbcb;
+}
 /*--*/
 .manager {
-  display: flex;
+  width: 900px;
+  background: url(../images/manager.png) no-repeat 17px/22px;
+  padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
-  padding: 10px 0 10px 20px;
-  font-size: 14px;
-  margin-bottom: 100px;
-}
-.manager img {
-  margin-right: 10px;
+  color: gray;
 }

@@ -19,7 +19,6 @@
 }
 .specialty_side_menu ul li {
   font-size: 18px;
-  font-weight: bold;
   padding: 15px 20px 15px 10px;
   border-bottom: 1px solid #cbcbcb;
 }
@@ -36,7 +35,6 @@
   width: 900px;
   padding-left: 80px;
   margin-top: 50px;
-  position: relative;
 }
 .specialty_title {
   margin-bottom: 30px;
@@ -49,16 +47,22 @@
   font-size: 13px;
 }
 /*--*/
-.specialty_icon {
-  margin-top: 50px;
-}
 .specialty_icon ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 15px;
+}
+.specialty_icon ul li a {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
 }
 .specialty_icon ul li span {
   position: absolute;
-  bottom: 0;
+  display: block;
+  bottom: 5px;
+}
+.fat img {
+  border: 1px solid #cbcbcb;
 }
