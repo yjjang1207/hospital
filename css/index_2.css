@@ -336,30 +336,49 @@
 }
 .map_icon ul {
   display: flex;
-  margin-bottom: 30px;
   justify-content: space-evenly;
   text-align: center;
 }
-.icon_img_road {
+.icon_img_road::before {
+  display: inline-block;
+  content: "";
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background: url(../images/road_b.png) no-repeat center/80px;
+  border: 2px solid #4d89c0;
+  border-radius: 50%;
+}
+.icon_img_road:hover {
+  background: url(../images/road.png) no-repeat center/80px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #4d89c0;
+  background: #4d89c0;
+  border-radius: 50%;
+  color: #4d89c0;
 }
 .icon_img_car {
 }
 .icon_img_buildig {
 }
-.icon_img_road:hover {
+/* .icon_img_road:hover {
   border-radius: 50%;
   background: #004b88 url(../images/road.png) no-repeat center;
   background-size: 70px;
-}
+} */
 .map_icon ul img {
   width: 70px;
   padding: 20px;
 }
-.map_icon span {
-  display: block;
+.map_icon a {
+  display: flex;
+  height: 160px;
+  flex-direction: column;
+  justify-content: space-between;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 10px;
 }
 .map_road {
   text-align: center;
