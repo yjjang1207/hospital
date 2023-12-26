@@ -338,51 +338,46 @@
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-}
-.icon_img_road::before {
-  display: inline-block;
-  content: "";
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background: url(../images/road_b.png) no-repeat center/80px;
-  border: 2px solid #4d89c0;
-  border-radius: 50%;
-}
-.icon_img_road:hover {
-  background: url(../images/road.png) no-repeat center/80px;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  border: 2px solid #4d89c0;
-  background: #4d89c0;
-  border-radius: 50%;
-  color: #4d89c0;
-}
-.icon_img_car {
-}
-.icon_img_buildig {
-}
-/* .icon_img_road:hover {
-  border-radius: 50%;
-  background: #004b88 url(../images/road.png) no-repeat center;
-  background-size: 70px;
-} */
-.map_icon ul img {
-  width: 70px;
-  padding: 20px;
+  margin-bottom: 30px;
 }
 .map_icon a {
   display: flex;
-  height: 160px;
   flex-direction: column;
   justify-content: space-between;
   font-size: 18px;
   font-weight: bold;
 }
-.map_road {
-  text-align: center;
+.map_icon img {
+  width: 80px;
+  padding: 30px;
 }
-.map_road img {
-  width: 100%;
+.road_box,
+.car_box,
+.building_box {
+  border: 3px solid #4d89c0;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.icon_img_road:hover .road_box img,
+.icon_img_car:hover .car_box img,
+.icon_img_buildig:hover .building_box img {
+  display: none;
+}
+.icon_img_road:hover .road_box {
+  width: 80px;
+  height: 80px;
+  padding: 30px;
+  background: #4d89c0 url(../images/road.png) no-repeat center/80px;
+}
+.icon_img_car:hover .car_box {
+  width: 80px;
+  height: 80px;
+  padding: 30px;
+  background: #4d89c0 url(../images/car.png) no-repeat center/80px;
+}
+.icon_img_buildig:hover .building_box {
+  width: 80px;
+  height: 80px;
+  padding: 30px;
+  background: #4d89c0 url(../images/building.png) no-repeat center/80px;
 }

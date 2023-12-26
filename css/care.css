@@ -68,9 +68,9 @@
 .care_icon ul li a img {
   width: 137px;
 }
-.care_icon ul li a img:hover {
+.care_icon ul li a:hover img {
   border: 3px solid #3586cf;
-  width: 130px;
+  width: 131px;
 }
 .care_icon ul li a span {
   position: absolute;

@@ -119,7 +119,10 @@
   text-decoration: underline;
 }
 /*--*/
-.use_guide {
+.use_guide,
+.care_guide,
+.round_guide,
+.etc_guide {
   display: none;
 }
 /*--*/
