@@ -19,7 +19,6 @@
 }
 .care_side_menu ul li {
   font-size: 18px;
-  font-weight: bold;
   padding: 15px 20px 15px 10px;
   border-bottom: 1px solid #cbcbcb;
 }
@@ -30,6 +29,9 @@
 .specialty:hover,
 .insurance_guide:hover {
   text-decoration: underline;
+}
+.care_tap_menu li {
+  text-decoration: none;
 }
 /*--*/
 .care_total {
@@ -52,15 +54,42 @@
   margin-bottom: 30px;
 }
 /*--*/
-.care_icon {
-  position: relative;
-}
 .care_icon ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 15px;
+}
+/* .care_icon ul li a {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.care_icon ul li a img {
+  width: 137px;
+}
+.care_icon ul li a img:hover {
+  border: 3px solid #3586cf;
+  width: 130px;
 }
 .care_icon ul li a span {
   position: absolute;
+  display: block;
+  bottom: 5px;
+} */
+.family_care {
+  width: 130px;
+  height: 145px;
+  background: url(../images/clinic_pg01_img1.gif)no-repeat 0px 0px/130px 145px;
+  /* padding: 120px 30px;
+  box-sizing: border-box; */
+  position: relative;
+}
+.family_care a {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+.family_care:hover {
+  border: 2px solid navy;
 }

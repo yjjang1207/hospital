@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8jou175dp3"></script> -->
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8jou175dp3"></script>
 </head>
 <body>
     <div class="skip_menu">
@@ -112,6 +118,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- <button type="button"><img src="../images/menu.png" alt="mobile_menu"></button> -->
     </header>
 
     <main id="main">
@@ -175,12 +183,12 @@
 
                 <div class="numbers">
                     <ul>
-                        <li><a href="#none">1</a></li>
-                        <li><a href="#none">2</a></li>
-                        <li><a href="#none">3</a></li>
-                        <li><a href="#none">4</a></li>
-                        <li><a href="#none">5</a></li>
-                        <li><a href="#none">6</a></li>
+                        <li><button type="button"  class="main_image_nums_active"></button></li>
+                        <li><button type="button"></button></li>
+                        <li><button type="button"></button></li>
+                        <li><button type="button"></button></li>
+                        <li><button type="button"></button></li>
+                        <li><button type="button"></button></li>
                     </ul>
                 </div>
             </div>
@@ -221,7 +229,7 @@
                 <img src="../images/online_reservation.png" alt="" width="60px">
                 <h3>진료예약</h3>
                 <span></span>
-                <p>온라인으로 쉽고 빠르게 <br>진료예약 및 조회를 하실 수 있습니다.</p>
+                <p>병원에 찾아오시지 않고<br>집에서 간편하게 온라인으로<br>진료예약 및 조회를 하실 수 있습니다.<br>쉽고 빠른 온라인예약을 이용해 보세요.</p>
                 <a href="#none" class="online_reservation_btn">진료예약 및 조회</a>
             </div>
 
@@ -230,6 +238,7 @@
                 <h3>진료과</h3>
                 <span></span>
                 <p>언제나 환자를 향합니다.</p>
+                <p>진료과 안내를 클릭하시면 진료시간표와 의료진 소개 등 자세한 내용을 확인할 수 있습니다.</p>
                 <div class="medical_depart_btn_wrap">
                     <a href="#none">진료과 안내</a>
                     <!-- <a href="#none">진료시간표</a> -->
@@ -241,6 +250,7 @@
                 <h3>의료진 찾기</h3>
                 <span></span>
                 <p>인간사랑과 생면존중을 실천합니다.</p>
+                <p>노원을지대학교병원 의료진은 항상 환자를 가족처럼 생각하며 정성을 다해 진료하고 있습니다.</p>
                 <a href="#none" class="find_doctor_btn">의료진 찾기</a>
             </div>
 
@@ -248,7 +258,7 @@
                 <img src="../images/certificate.png" alt="" width="50px">
                 <h3>증명서 발급</h3>
                 <span></span>
-                <p>온라인으로 증명서를<br> 발급받으실 수 있습니다.</p>
+                <p>집에서 쉽고 간편하게<br>온라인으로 증명서를<br> 발급받으실 수 있습니다.</p>
                 <div class="certificate_btn_wrap">
                     <a href="#none">발급서비스 안내</a>
                     <a href="#none">온라인증명서 발급</a>
@@ -259,9 +269,9 @@
                 <img src="../images/call_center.png" alt="" width="50px">
                 <h3>통합콜센터</h3>
                 <span></span>
-                <p>1899-0001</p>
-                <p>평일 08:30 ~ 17:30</p>
-                <p>토요일 08:30 ~ 12:30</p>
+                <p class="call_center_num">1899-0001</p>
+                <p class="call_center_date">평일 08:30 ~ 17:30</p>
+                <p class="call_center_date">토요일 08:30 ~ 12:30</p>
             </div>
         </div>
 
@@ -744,6 +754,24 @@
 
                     var map = new naver.maps.Map('map', mapOptions);
                   </script> -->
+                  <div id="map" style="width:100%;height:400px;"></div>
+
+                  <script>
+                  var mapOptions = {
+                      center: new naver.maps.LatLng(37.636485, 127.069713),
+                      zoom: 17
+                  };
+
+                  var map = new naver.maps.Map('map', mapOptions);
+                  var map = new naver.maps.Map('map', {
+                  center: new naver.maps.LatLng(37.636485, 127.069713),
+                  zoom: 17
+                });
+
+                  var marker = new naver.maps.Marker({
+                  position: new naver.maps.LatLng(37.6364852, 127.069713),
+                  map: map});
+                  </script>
                 </div>
               </div>
             </div>

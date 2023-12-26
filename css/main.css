@@ -10,7 +10,12 @@ main {
     width: 650px;
 }
 .main_image_wrap {
-    background: #fff5e0;
+    background: #aa845e;
+    /* background: #67606a; */
+    /* background: #51597d; */
+    /* background: #4a7ecc; */
+    /* background: #dff1ec; */
+    /* background: #aa845e; */
 }
 .main_image {
     max-width: 1200px;
@@ -37,103 +42,134 @@ main {
     margin-right: 50px;
 }
 .main_image1_p1 {
-    font-size: 20px;
+    font-size: 18px;
+    color: #000;
+
 }
 .main_image1_p2 {
-    font-size: 35px;
+    font-size: 45px;
     color: gold;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 .main_image1_p3 {
-    font-size: 35px;
+    font-size: 45px;
     color: gold;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500
 }
 
 /* 메인이미지 2 */
 .main_image2_p1 {
-    font-size: 20px;
+    font-size: 18px;
 }
 .main_image2_p2 {
-    font-size: 35px;
+    font-size: 45px;
     color: #cca181;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 .main_image2_p3 {
-    font-size: 35px;
+    font-size: 45px;
     color: gold;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 
 /* 메인이미지 3 */
 .main_image3_p1 {
     font-size: 20px;
+    color: #fff;
 }
 .main_image3_p2 {
     font-size: 35px;
     color: #16f1d4;
     margin-bottom: 20px;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 .main_image3_p3 {
     font-size: 20px;
+    color: #fff;
 }
 .main_image3_p4 {
     font-size: 35px;
     color: #d7b16d;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 
 /* 메인이미지 4 */
 .main_image4_p1 {
-    font-size: 35px;
-    color: #21326d;
+    font-size: 50px;
+    color: #e8ee91;
+    margin-bottom: 40px;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 
 }
 .main_image4_p2 {
     font-size: 25px;
-    color: gray;
+    color: #fff;
+
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 
 /* 메인이미지 5 */
 .main_image5_p1 {
     font-size: 20px;
     color: #2d7587;
+    margin-bottom: 10px;
 }
 .main_image5_p2 {
     font-size: 20px;
     color: gray;
+    margin-bottom: 30px;
 }
 .main_image5_p3 {
-    font-size: 35px;
+    font-size: 45px;
     color: #27535f;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 
 /* 메인이미지 6 */
 .main_image6_p1 {
-    font-size: 35px;
-    color: #d7a422;
+    font-size: 45px;
+    color: #ffeb0c;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
 .main_image6_p2 {
-    font-size: 35px;
-    color: #d7a422;
+    font-size: 45px;
+    color: #ffeb0c;
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
 }
-
-.main_image .main_image2, .main_image .main_image3, .main_image .main_image4, .main_image .main_image5, .main_image .main_image6 {
+/* .main_image .main_image1 {
+  display: none;
+} */
+.main_image .main_image2, .main_image .main_image3,.main_image .main_image4, .main_image .main_image5, .main_image .main_image6{
     display: none;
 }
 
 /* 슬라이드 */
-.numbers li:first-child {
+.numbers li button {
+    width: 15px;
+    height: 15px;
+    background: url(../images/circle_w.png)no-repeat center/15px 15px;
+    /* text-indent: -9999px; */
+}
+.numbers ul li .main_image_nums_active {
     width: 15px;
     height: 15px;
     background: url(../images/circle_c.png)no-repeat center/15px 15px;
-    text-indent: -9999px;
-}
-.numbers li {
-    width: 15px;
-    height: 15px;
-    background: url(../images/circle.png)no-repeat center/15px 15px;
-    text-indent: -9999px;
 }
 
 .numbers ul {
     display: flex;
-    gap: 5px;
+    gap: 8px;
     position: absolute;
     left: 175px;
     bottom: 40px;
@@ -243,6 +279,9 @@ main {
     position: absolute;
     bottom: 30px;
 }
+.online_reservation p {
+  line-height: 25px;
+}
 
 
 .medical_department {
@@ -265,6 +304,9 @@ main {
     padding: 5px 20px;
     border-radius: 5px;
 }
+.medical_department p {
+  line-height: 25px;
+}
 
 
 .find_doctor {
@@ -283,7 +325,9 @@ main {
     position: absolute;
     bottom: 30px;
 }
-
+.find_doctor p {
+  line-height: 25px;
+}
 
 .certificate {
     border: 1px solid #cbcbcb;
@@ -305,6 +349,9 @@ main {
     padding: 5px 20px;
     border-radius: 5px;
 }
+.certificate p {
+  line-height: 30px;
+}
 
 
 .call_center {
@@ -314,6 +361,14 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+}
+.call_center_num {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.call_center_date {
+  color: #f69247;
 }
 
 .shortcut_menu a:hover {
@@ -375,6 +430,19 @@ main {
 }
 .health_center, .stroke_center {
     background: #3686cf;
+}
+
+.special_center a {
+  padding: 58px 84px;
+}
+.health_center a {
+  padding: 58px 84px;
+}
+.cooperation_center a {
+  padding: 58px 84px;
+}
+.stroke_center a {
+  padding: 58px 84px;
 }
 
 
