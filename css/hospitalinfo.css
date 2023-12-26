@@ -49,6 +49,7 @@ main {
 }
 .hospital_info_wrap h2 {
     margin: 60px 0 10px;
+    font-size: 40px;
 }
 
 .info_title_wrap {
@@ -112,4 +113,5 @@ main {
     border: 1px solid #cbcbcb;
     color: gray;
     margin-bottom: 40px;
+    box-sizing: border-box;
 }

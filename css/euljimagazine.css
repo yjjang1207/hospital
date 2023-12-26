@@ -92,6 +92,10 @@ thead tr th:nth-child(3)::after */
     justify-content: center;
     margin-bottom: 15px;
 }
+.nums_active {
+    color: #004b88;
+    text-decoration: underline;
+}
 #medical_essay_search {
     background: #eee;
     padding: 10px;
@@ -106,7 +110,21 @@ thead tr th:nth-child(3)::after */
     border: 1px solid #004b88;
     color: #fff;
     background: #004b88;
-    padding: 1px;
+    width: 50px;
+    height: 22px;
+}
+select {
+    width: 90px;
+    height: 22px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+#medical_essay_txt {
+    width: 300px;
+    height: 22px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
 }
 
 .manager {
@@ -115,4 +133,5 @@ thead tr th:nth-child(3)::after */
     padding: 15px 0 15px 50px;
     border: 1px solid #cbcbcb;
     color: gray;
+    box-sizing: border-box;
 }
