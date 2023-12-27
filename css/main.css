@@ -68,13 +68,13 @@ main {
 .main_image1_p2 {
     font-size: 45px;
     color: gold;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 .main_image1_p3 {
     font-size: 45px;
     color: gold;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500
 }
 
@@ -85,13 +85,13 @@ main {
 .main_image2_p2 {
     font-size: 45px;
     color: #cca181;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 .main_image2_p3 {
     font-size: 45px;
     color: gold;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 
@@ -104,7 +104,7 @@ main {
     font-size: 35px;
     color: #16f1d4;
     margin-bottom: 20px;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 .main_image3_p3 {
@@ -114,7 +114,7 @@ main {
 .main_image3_p4 {
     font-size: 35px;
     color: #d7b16d;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 
@@ -123,7 +123,7 @@ main {
     font-size: 50px;
     color: #e8ee91;
     margin-bottom: 40px;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 
 }
@@ -131,7 +131,7 @@ main {
     font-size: 25px;
     color: #fff;
 
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 
@@ -149,7 +149,7 @@ main {
 .main_image5_p3 {
     font-size: 45px;
     color: #27535f;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 
@@ -157,13 +157,13 @@ main {
 .main_image6_p1 {
     font-size: 45px;
     color: #ffeb0c;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 .main_image6_p2 {
     font-size: 45px;
     color: #ffeb0c;
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
     font-weight: 500;
 }
 /* .main_image .main_image1 {
