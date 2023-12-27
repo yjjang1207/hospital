@@ -33,12 +33,12 @@ header {
     position: relative;
     z-index: 3;
 }
-header:hover .nav_bg {
+/* header:hover .nav_bg {
     display: block;
-}
-header:hover .two_depth {
+}*/
+/* .gnb:hover .two_depth {
     display: block;
-}
+}  */
 .header_wrap {
     max-width: 1200px;
     margin: 0 auto;
@@ -138,7 +138,10 @@ header:hover .two_depth {
 .lang_bg li {
     padding: 3px;
 }
-.language:hover .lang_bg {
+/* .language:hover .lang_bg {
+    display: block;
+} */
+.lang_bg_active {
     display: block;
 }
 

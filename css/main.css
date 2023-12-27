@@ -260,6 +260,16 @@ main {
     position: absolute;
     bottom: 30px;
 }
+.new_reservation_btn_active {
+    color: #fff;
+    border: 1px solid #3686cf;
+    background: #3686cf;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+}
 
 
 
@@ -423,7 +433,7 @@ main {
 }
 .medical_center ul p {
     color: #fff;
-    font-size: 18px;
+    font-size: 17px;
     margin: 10px 0;
 }
 .special_center, .cooperation_center {
