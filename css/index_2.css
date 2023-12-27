@@ -14,6 +14,9 @@
 .notice_title h2 {
   margin-bottom: 10px;
 }
+.notice_inner {
+  margin: 0 10px;
+}
 .notice_first {
   position: relative;
   display: flex;
@@ -53,7 +56,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  gap: 8px;
 }
 .eulji_news ul li,
 .eulji_qna ul li,
@@ -202,6 +205,20 @@
 }
 .doctor_inner a:hover {
   font-weight: bold;
+}
+.doctor_dot ul {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+.doctor_dot ul li {
+  margin-right: 10px;
+}
+.doctor_dot img {
+  width: 13px;
+}
+.doctor_dot {
+  display: none;
 }
 /*--*/
 .e_ad_bg {
@@ -380,4 +397,82 @@
   height: 80px;
   padding: 30px;
   background: #4d89c0 url(../images/building.png) no-repeat center/80px;
+}
+
+/*--*/
+@media screen and (max-width: 1200px) {
+  .notice_first li a {
+    padding: 15px 50px;
+  }
+  .eulji_news ul li,
+  .eulji_qna ul li,
+  .eulji_employment ul li,
+  .eulji_bid ul li {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 1166px) {
+  .notice_first li a {
+    padding: 15px 50px;
+  }
+  .eulji_news ul li,
+  .eulji_qna ul li,
+  .eulji_employment ul li,
+  .eulji_bid ul li {
+    width: 43%;
+  }
+  .e_ad_inner {
+    flex-direction: column;
+    margin: auto;
+  }
+  .e_leaflet {
+    width: 520px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .eulji_news ul li,
+  .eulji_qna ul li,
+  .eulji_employment ul li,
+  .eulji_bid ul li {
+    width: 42%;
+  }
+  .arrow {
+    display: none;
+  }
+  .doctor_dot {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 874px) {
+  .eulji_news ul li,
+  .eulji_qna ul li,
+  .eulji_employment ul li,
+  .eulji_bid ul li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .notice_first li a {
+    padding: 15px 10px;
+  }
+  .doctor_img_name1,
+  .doctor_img_name2,
+  .doctor_img_name3,
+  .doctor_img_name4,
+  .doctor_img_name5 {
+    display: block;
+    text-align: center;
+  }
+  .doctor_inner {
+    margin: auto;
+  }
+  .doctor_inner a {
+    text-align: center;
+    margin-top: 0;
+  }
 }
