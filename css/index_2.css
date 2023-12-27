@@ -1,7 +1,7 @@
-.main {
+/* .main {
   position: relative;
   z-index: 1;
-}
+} */
 /*--*/
 .notice {
   max-width: 1200px;
@@ -338,6 +338,7 @@
 }
 .ad_btn ul li button img {
   width: 15px;
+  height: 15px;
 }
 /*--*/
 .map {
