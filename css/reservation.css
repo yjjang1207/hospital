@@ -9,23 +9,30 @@
 }
 .reservation_side_menu {
   width: 219px;
-  padding-top: 50px;
   border-right: 1px solid #cbcbcb;
 }
 .reservation_side_menu h2 {
   font-size: 30px;
   border-bottom: 1px solid #cbcbcb;
-  padding: 20px 20px 20px 10px;
+  padding: 50px 0 40px 20px;
 }
 .reservation_side_menu ul li {
   font-size: 18px;
-  font-weight: bold;
-  padding: 15px 20px 15px 10px;
+  padding: 15px 0;
   border-bottom: 1px solid #cbcbcb;
 }
 .guide {
   background: #3586cf;
   color: #fff;
+}
+.guide a {
+  padding: 15px 130px 15px 15px;
+}
+.visit a {
+  padding: 15px 28px 15px 15px;
+}
+.faq a {
+  padding: 15px 80px 15px 15px;
 }
 .visit:hover,
 .faq:hover {
@@ -35,14 +42,13 @@
 .reservation_guide {
   width: 900px;
   padding-left: 80px;
-  margin-top: 50px;
 }
 .guide_title {
   margin-bottom: 30px;
 }
 .guide_title h3 {
-  font-size: 30px;
-  margin: 20px 0 10px;
+  font-size: 25px;
+  margin: 60px 0 10px;
 }
 .guide_title p {
   font-size: 13px;
@@ -102,12 +108,9 @@
 }
 /*--*/
 .manager {
-  display: flex;
+  width: 900px;
+  background: url(../images/manager.png) no-repeat 17px/22px;
+  padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
-  padding: 10px 0 10px 20px;
-  font-size: 14px;
-  margin-bottom: 100px;
-}
-.manager img {
-  margin-right: 10px;
+  color: gray;
 }

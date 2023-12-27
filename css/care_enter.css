@@ -19,7 +19,6 @@
 }
 .enter_life_side_menu ul li {
   font-size: 18px;
-  font-weight: bold;
   padding: 15px 20px 15px 10px;
   border-bottom: 1px solid #cbcbcb;
 }
@@ -38,11 +37,31 @@
   margin-top: 50px;
 }
 .enter_title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .enter_title h3 {
   font-size: 30px;
   margin-top: 20px;
+}
+/*--*/
+.care_tap_menu {
+  margin-bottom: 50px;
+}
+.care_tap_menu ul {
+  display: flex;
+  justify-content: center;
+}
+.care_tap_menu ul li {
+  width: 430px;
+  padding: 15px 10px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #aaa;
+}
+.care_tap_menu ul li:first-child {
+  color: #fff;
+  background: #3586cf;
+  border: 1px solid #3586cf;
 }
 /*--*/
 .enter_download h4,
@@ -55,35 +74,111 @@
 }
 .enter_order h5 {
   font-size: 20px;
+  color: #3586cf;
 }
 .enter_download {
   display: flex;
   justify-content: space-between;
 }
 .download a {
-  border: 1px solid #3586cf;
+  border: 1px solid #1fc0b8;
+  background: #1fc0b8;
+  color: #fff;
   padding: 5px 10px;
   margin-left: 10px;
 }
 /*--*/
-
+.enter_1 p,
+.enter_1 ul,
+.enter_2 p,
+.enter_2 ul {
+  font-size: 15px;
+  line-height: 25px;
+}
+.enter_1 ul li,
+.enter_2 ul li {
+  list-style: inside;
+}
 /*--*/
 .enter_1,
 .enter_2 {
   display: flex;
+  margin-bottom: 100px;
+}
+.enter_1 img,
+.enter_2 img {
+  height: 530px;
+}
+.enter_1 h5 {
+  margin-bottom: 15px;
+}
+.enter_1_inner {
+  margin-left: 40px;
+}
+.enter_1_inner1 {
+  margin: 20px 0 130px;
+}
+.enter_1_inner2 {
+  margin-bottom: 100px;
+}
+.enter_2 h5 {
+  margin-bottom: 15px;
+}
+.enter_2_inner {
+  margin-left: 40px;
+}
+.enter_2_inner1 {
+  margin: 20px 0 140px;
+}
+.enter_2_inner2 {
+  margin-bottom: 90px;
+}
+/*--*/
+.enter_life_guide {
   margin-bottom: 50px;
 }
-.enter_txt {
-  margin-left: 30px;
+.enter_life_guide span {
+  margin-left: 15px;
+}
+.enter_life_guide p,
+.enter_life_guide span {
+  line-height: 25px;
+}
+/*--*/
+.enter_time {
+  margin-bottom: 50px;
+}
+.enter_time h4 {
+  color: #3586cf;
+  border-bottom: 3px solid #3586cf;
+  margin-bottom: 10px;
+}
+.enter_time p {
+  border-bottom: 1px solid #cbcbcb;
+}
+/*--*/
+.enter_limit {
+  margin-bottom: 50px;
+}
+.enter_limit h4 {
+  color: #3586cf;
+}
+.limit_list {
+  list-style: disc;
+  line-height: 25px;
+}
+.limit_list ul {
+  margin-bottom: 30px;
+}
+.limit_list ul li {
+  list-style: circle;
+  margin-left: 20px;
 }
 /*--*/
 .manager {
-  display: flex;
+  width: 900px;
+  background: url(../images/manager.png) no-repeat 17px/22px;
+  padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
-  padding: 10px 0 10px 20px;
-  font-size: 14px;
-  margin-bottom: 100px;
-}
-.manager img {
-  margin-right: 10px;
+  color: gray;
 }

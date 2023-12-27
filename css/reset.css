@@ -1,4 +1,4 @@
-body, header, main, footer, h1, h2, h3, h4, address, p, div, nav, form, fieldset, ul, li, button {
+body, header, main, footer, h1, h2, h3, h4, h5, address, p, div, nav, form, fieldset, ul, li, button {
     margin: 0;
     padding: 0;
 }

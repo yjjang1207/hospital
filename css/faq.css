@@ -5,28 +5,34 @@
 .faq_wrap {
   max-width: 1200px;
   display: flex;
-  margin: 50px auto 100px;
+  margin: auto;
 }
 .faq_side_menu {
   width: 218px;
-  text-align: end;
-  padding-top: 30px;
   border-right: 1px solid #cbcbcb;
 }
 .faq_side_menu h2 {
   font-size: 30px;
   border-bottom: 1px solid #cbcbcb;
-  padding: 20px;
+  padding: 50px 0 40px 20px;
 }
 .faq_side_menu ul li {
   font-size: 18px;
-  font-weight: bold;
-  padding: 15px 20px 15px 0;
+  padding: 15px 0;
   border-bottom: 1px solid #cbcbcb;
 }
 .faq {
   background: #3586cf;
   color: #fff;
+}
+.guide a {
+  padding: 15px 130px 15px 15px;
+}
+.visit a {
+  padding: 15px 28px 15px 15px;
+}
+.faq a {
+  padding: 15px 80px 15px 15px;
 }
 .guide:hover,
 .visit:hover {
@@ -41,11 +47,19 @@
   margin-bottom: 30px;
 }
 .question_title h3 {
-  font-size: 30px;
-  margin: 20px 0 10px;
+  font-size: 25px;
+  margin: 60px 0 10px;
+}
+.question_title p {
+  font-size: 13px;
 }
 .question_txt {
   margin-bottom: 50px;
+}
+.question_txt span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .question_txt p {
   font-size: 13px;
@@ -78,6 +92,14 @@
 }
 .question_inner ul li {
   border-bottom: 1px solid #cbcbcb;
+  padding: 20px 0 20px 20px;
+  cursor: pointer;
+}
+.question_inner ul li :hover {
+  color: #3586cf;
+}
+.question_inner ul li div {
+  display: none;
 }
 /*--*/
 .question_munber {
@@ -91,6 +113,17 @@
 }
 .question_munber a:first-child {
   color: #3586cf;
+  text-decoration: underline;
+}
+.question_munber a:hover {
+  text-decoration: underline;
+}
+/*--*/
+.use_guide,
+.care_guide,
+.round_guide,
+.etc_guide {
+  display: none;
 }
 /*--*/
 .question_form {
@@ -119,12 +152,9 @@
 }
 /*--*/
 .manager {
-  display: flex;
+  width: 900px;
+  background: url(../images/manager.png) no-repeat 17px/22px;
+  padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
-  padding: 10px 0 10px 20px;
-  font-size: 14px;
-  margin-bottom: 100px;
-}
-.manager img {
-  margin-right: 10px;
+  color: gray;
 }

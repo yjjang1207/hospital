@@ -59,7 +59,7 @@
   flex-wrap: wrap;
   gap: 15px;
 }
-/* .care_icon ul li a {
+.care_icon ul li a {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -68,28 +68,12 @@
 .care_icon ul li a img {
   width: 137px;
 }
-.care_icon ul li a img:hover {
+.care_icon ul li a:hover img {
   border: 3px solid #3586cf;
-  width: 130px;
+  width: 131px;
 }
 .care_icon ul li a span {
   position: absolute;
   display: block;
   bottom: 5px;
-} */
-.family_care {
-  width: 130px;
-  height: 145px;
-  background: url(../images/clinic_pg01_img1.gif)no-repeat 0px 0px/130px 145px;
-  /* padding: 120px 30px;
-  box-sizing: border-box; */
-  position: relative;
-}
-.family_care a {
-  position: absolute;
-  bottom: 10px;
-  left: 30px;
-}
-.family_care:hover {
-  border: 2px solid navy;
 }
