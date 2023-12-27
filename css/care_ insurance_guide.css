@@ -3,7 +3,7 @@
   z-index: 1;
 }
 .insurance_guide_wrap {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   margin: auto;
 }
@@ -61,15 +61,15 @@
 /*--*/
 .insurance_total {
   width: 900px;
-  padding: 0 0 50px 80px;
-  margin-top: 50px;
+  padding: 0 0 70px 80px;
+  /* margin-top: 50px; */
 }
 .insurance_guide_title {
   margin-bottom: 50px;
 }
 .insurance_guide_title h3 {
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 25px;
+  margin-top: 60px;
 }
 /*--*/
 .insurance_1,
@@ -98,6 +98,15 @@
 .insurance_4 p span {
   margin-left: 15px;
 }
+
+.enter_life {
+  padding: 15px 175px;
+}
+.insurance_guide_insurance {
+  padding: 15px 185px;
+}
+
+
 /*--*/
 .manager {
   width: 900px;
@@ -105,4 +114,5 @@
   padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
   color: gray;
+  box-sizing: border-box;
 }

@@ -6,7 +6,7 @@
 }
 /*--*/
 .footer_total {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,7 +30,7 @@
 }
 /*--*/
 .footer_add_family {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   color: #cbcbcb;
@@ -89,7 +89,7 @@
   color: #02a8ac;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .footer_total {
     align-items: center;
   }
@@ -108,4 +108,4 @@
   .footer_sns {
     margin-bottom: 20px;
   }
-}
+} */

@@ -3,7 +3,7 @@
   z-index: 1;
 }
 .enter_life_wrap {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   margin: auto;
 }
@@ -29,7 +29,7 @@
   padding: 15px 130px 15px 15px;
 }
 .specialty a {
-  padding: 15px 100px 15px 15px;
+  padding: 15px 95px 15px 15px;
 }
 .insurance_guide a {
   padding: 15px 130px 15px 15px;
@@ -41,15 +41,15 @@
 /*--*/
 .enter_total {
   width: 900px;
-  padding: 0 0 50px 80px;
-  margin-top: 50px;
+  padding: 0 0 70px 80px;
+  /* margin-top: 50px; */
 }
 .enter_title {
   margin-bottom: 50px;
 }
 .enter_title h3 {
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 25px;
+  margin-top: 60px;
 }
 /*--*/
 .care_tap_menu {
@@ -71,6 +71,17 @@
   background: #3586cf;
   border: 1px solid #3586cf;
 }
+
+
+.enter_life {
+  padding: 15px 175px;
+}
+.insurance_guide_insurance {
+  padding: 15px 185px;
+}
+
+
+
 /*--*/
 .enter_download h4,
 .enter_out h4,
@@ -189,4 +200,5 @@
   padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
   color: gray;
+  box-sizing: border-box;
 }

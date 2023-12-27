@@ -18,7 +18,7 @@ main {
     /* background: #aa845e; */
 }
 .main_image {
-    max-width: 1200px;
+    width: 1200px;
     position: relative;
     margin: 0 auto 80px;
     padding: 15px;
@@ -171,7 +171,7 @@ main {
     display: flex;
     gap: 8px;
     position: absolute;
-    left: 175px;
+    left: 150px;
     bottom: 40px;
 }
 
@@ -179,7 +179,7 @@ main {
 /* 바로가기 메뉴 */
 .shortcut_menu {
     display: flex;
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto 80px;
     flex-wrap: wrap;
     justify-content: center;
@@ -396,7 +396,7 @@ main {
 }
 
 .medical_center {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 .medical_center h2 {

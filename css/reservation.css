@@ -3,7 +3,7 @@
   z-index: 1;
 }
 .reservation_wrap {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   margin: auto;
 }
@@ -41,7 +41,7 @@
 /*--*/
 .reservation_guide {
   width: 900px;
-  padding: 0 0 50px 80px;
+  padding: 0 0 70px 80px;
 }
 .guide_title {
   margin-bottom: 30px;
@@ -51,7 +51,7 @@
   margin: 60px 0 10px;
 }
 .guide_title p {
-  font-size: 13px;
+  font-size: 14px;
 }
 .guide_01,
 .guide_02,
@@ -101,7 +101,7 @@
   background: #3e8dd6;
 }
 .t_btn {
-  background: #009c93;
+  background: #1dc5bb;
 }
 .fourth_btn {
   background: #e57418;
@@ -113,4 +113,5 @@
   padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
   color: gray;
+  box-sizing: border-box;
 }

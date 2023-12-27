@@ -77,7 +77,7 @@
                             <li><a href="https://www.emc.ac.kr/epub/index.html">을지60년사</a></li>
                             <li><a href="https://www.eulji.or.kr/ePub/index.html">설립자 평전</a></li>
                             <li><a href="hospitalinfo.html">병원소개</a></li>
-                            <li><a href="hosiptalmap.html">찾아오시는 길</a></li>
+                            <li><a href="hospitalmap.html">찾아오시는 길</a></li>
                             <li><a href="customersay.html">고객의 소리</a></li>
                             <li><a href="recruitment.html">공지사항</a></li>
                         </ul>
@@ -969,7 +969,34 @@
 
             <div class="map_hospital">
               <h2 class="hide">병원지도</h2>
-              <div id="map" style="width: 100%; height: 500px"></div>
+              <div id="map" style="width:100%;height:400px;"></div>
+
+                  <script>
+                  var mapOptions = {
+                      center: new naver.maps.LatLng(37.636485, 127.069713),
+                      zoom: 17
+                  };
+
+                  var map = new naver.maps.Map('map', mapOptions);
+                  var map = new naver.maps.Map('map', {
+                  center: new naver.maps.LatLng(37.636485, 127.069713),
+                  zoom: 17
+                });
+
+                  var marker = new naver.maps.Marker({
+                  position: new naver.maps.LatLng(37.6364852, 127.069713),
+                  map: map});
+                  // 클릭 이벤트 핸들러 추가
+                  naver.maps.Event.addListener(map, 'click', function(e) {
+                      // 클릭한 위치의 좌표를 가져와서 링크에 추가
+                      var clickedLng = e.coord.x;
+                      var clickedLat = e.coord.y;
+                      var link = 'https://map.naver.com/p/entry/place/11797422?lng=' + clickedLng + '&lat=' + clickedLat + '&placePath=%2Fhome&searchType=place&c=15.00,0,0,0,dh';
+
+                      // 링크로 이동
+                      window.location.href = link;
+                  });
+                  </script>
             </div>
           </div>
         </div>

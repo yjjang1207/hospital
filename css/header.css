@@ -3,7 +3,7 @@
     background: linear-gradient(to right, #93bcda 30%, #d5e6ed 70%);
 }
 .top_banner {
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
     position: relative;
     
@@ -40,7 +40,7 @@ header {
     display: block;
 }  */
 .header_wrap {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 .logo img {
@@ -52,7 +52,7 @@ header {
 
 /* GNB */
 .gnb {
-    max-width: 900px;
+    width: 900px;
     margin: 0 auto;
 }
 .border_line {
@@ -96,7 +96,7 @@ header {
 
 /* 탑메뉴 */
 .top_menu {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

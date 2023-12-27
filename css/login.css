@@ -3,7 +3,7 @@
   z-index: 1;
 }
 .login_wrap {
-  max-width: 1200px;
+  width: 1200px;
   margin: 50px auto 50px;
 }
 .login_title h2 {

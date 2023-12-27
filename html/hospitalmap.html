@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>노원을지대학교병원::병원안내</title>
+    <title>노원을지대학교병원::건강정보</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/bidding.css">
+    <link rel="stylesheet" href="../css/hospitalmap.css">
     <link rel="stylesheet" href="../css/footer.css">
+
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8jou175dp3"></script>
 </head>
 <body>
     <header id="header">
@@ -101,7 +103,7 @@
     </header>
 
     <main id="main">
-        <div class="hospitalinfo_side_menu">
+        <div class="customersay_side_menu">
             <h2>병원안내</h2>
             <ul>
                 <li class="eulji60"><a href="https://www.emc.ac.kr/epub/index.html">을지60년사</a></li>
@@ -113,132 +115,78 @@
             </ul>
         </div>
 
-        <div class="recruitment_wrap">
-            <h3>공지사항</h3>
+        <div class="customersay_wrap">
+            <h2>찾아오시는 길</h2>
+            <!-- 지도 -->
+            <div id="map" style="width:100%;height:400px;"></div>
 
-            <div class="notice_tab_menu">
+            <script>
+                var mapOptions = {
+                    center: new naver.maps.LatLng(37.636485, 127.069713),
+                    zoom: 17
+                };
+
+                var map = new naver.maps.Map('map', mapOptions);
+                var map = new naver.maps.Map('map', {
+                center: new naver.maps.LatLng(37.636485, 127.069713),
+                zoom: 17
+            });
+
+                var marker = new naver.maps.Marker({
+                position: new naver.maps.LatLng(37.6364852, 127.069713),
+                map: map});
+                // 클릭 이벤트 핸들러 추가
+                naver.maps.Event.addListener(map, 'click', function(e) {
+                    // 클릭한 위치의 좌표를 가져와서 링크에 추가
+                    var clickedLng = e.coord.x;
+                    var clickedLat = e.coord.y;
+                    var link = 'https://map.naver.com/p/entry/place/11797422?lng=' + clickedLng + '&lat=' + clickedLat + '&placePath=%2Fhome&searchType=place&c=15.00,0,0,0,dh';
+
+                    // 링크로 이동
+                    window.location.href = link;
+                });
+            </script>
+
+            <p>* 지도를 클릭하시면 상세 안내 페이지로 이동합니다.</p>
+
+            <div class="subway">
+                <h3>지하철로 가는 길</h3>
                 <ul>
-                    <li><a href="recruitment.html" class="recruitment_btn">인재채용</a></li>
-                    <li><a href="bidding.html" class="bidding_btn">입찰정보</a></li>
+                    <li>지하철 7호선 : 하계역(을지대 을지병원) 3번 출구 (도보 3분 거리)</li>
+                </ul>
+            </div>  
+
+            <div class="bus">
+                <h3>버스로 가는 길</h3>
+                <ul>
+                    <li>하계미성아파트(을지병원) : 100, 172, 8110, 1135, 1141, 1144, 1224</li>
+                    <li>하계(세이브존 앞) : 105, 146, 8146, 1131, 1135, 1140, 1160, 1001</li>
+                    <li>한성여객종점 : 100, 172, 8110, 1135, 1141, 1144, 1224</li>
+                    <li>하계역(6번출구) : 105, 146, 1137, 1140, 1001</li>
                 </ul>
             </div>
 
-            <div class="notice_tab_content2">
-                <table summary="입찰정보">
-                    <caption class="hide">입찰정보</caption>
-                    <thead>
-                        <tr>
-                            <th>번호</th>
-                            <th>제목</th>
-                            <th>파일</th>
-                            <th>작성일</th>
-                            <th>조회수</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>383</td>
-                            <td>대전을지대학교병원 소화기센터 가구 구매</td>
-                            <td></td>
-                            <td>2023.12.26</td>
-                            <td>2</td>
-                        </tr>
-                        <tr>
-                            <td>382</td>
-                            <td>대전을지대학교병원 내시경실 스트레쳐카트 5 Set 구매</td>
-                            <td></td>
-                            <td>2023.12.26</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>381</td>
-                            <td>대전을지대학교병원 내시경실 Single Monitor Arm 7 Set 구매</td>
-                            <td></td>
-                            <td>2023.12.26</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>380</td>
-                            <td>대전을지대학교병원 내시경실 LCD Monitor 7 Set 구매</td>
-                            <td></td>
-                            <td>2023.12.26</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>379</td>
-                            <td>대전을지대학교병원 내시경실 Patient Monitor 10 Set 구매</td>
-                            <td></td>
-                            <td>2023.12.26</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>378</td>
-                            <td>(재공고)을지재단 및 산하기관 홈페이지 외주 운영 용역사업</td>
-                            <td></td>
-                            <td>2023.12.14</td>
-                            <td>7</td>
-                        </tr>
-                        <tr>
-                            <td>377</td>
-                            <td>대전을지대학교병원 재활치료실 치료도구 구입(재공고)</td>
-                            <td></td>
-                            <td>2023.12.13</td>
-                            <td>4</td>
-                        </tr>
-                        <tr>
-                            <td>376</td>
-                            <td>노원을지대학교병원 신경생리감시장치 1 Set 구매</td>
-                            <td></td>
-                            <td>2023.12.12</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>375</td>
-                            <td>을지재단 MRI 1 Set, CT 1 Set 구매 & MRI S/W Upgrade 4 Set(재공고)</td>
-                            <td></td>
-                            <td>2023.12.07</td>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td>374</td>
-                            <td>의정부/노원/강남을지대학교병원 의료폐기물 수집.운반/중간처리(재공고)</td>
-                            <td></td>
-                            <td>2023.12.07</td>
-                            <td>14</td>
-                        </tr>
-                    
-                    </tbody>
-                </table>
+            <div class="car">
+                <h3>자동차 오시는 길</h3>
+                <a href="https://map.naver.com/p/directions/-/14145360.514994117,4528199.060846125,%EC%9D%84%EC%A7%80%EB%B3%91%EC%9B%90,11797422,PLACE_POI/-/transit?c=15.00,0,0,0,dh" target="_blank">
+                    <span>자동차 오시는 길 찾기</span>
+                    <span>&gt;</span>
+                </a>
             </div>
 
-            <div class="recruitment_nums">
-                <ul>
-                    <li class="nums_active"><a href="#none">1</a></li>
-                    <li><a href="#none">2</a></li>
-                    <li><a href="#none">3</a></li>
-                    <li><a href="#none">4</a></li>
-                    <li><a href="#none">5</a></li>
-                    <li><a href="#none">6</a></li>
-                </ul>
+            <div class="parking">
+                <h3>주차장 이용 안내</h3>
+                <img src="../images/parkingmap.png" alt="주차장 지도" width="600px">
             </div>
 
-            <form name="medical_essay_search" id="medical_essay_search">
-                <fieldset>
-                    <legend class="hide">메디컬 에세이 검색</legend>
-                    <label for="medical_essay_txt">
-                        <select>
-                            <option>제목</option>
-                            <option>내용</option>
-                        </select>
-                        <input type="text" name="medical_essay_txt" id="medical_essay_txt">
-                        <button type="submit" class="medical_essay_search_btn">검색</button>
-                    </label>
-                </fieldset>
-            </form>
 
-            <p class="manager">콘텐츠 담당자 : 인사팀 이지연</p>
-        
+
+
+            <div class="manager_wrap">
+                <p class="manager">콘텐츠 담당자 : 원무팀 이 상</p>
+            </div>
+
+
         </div>
 
     </main>
