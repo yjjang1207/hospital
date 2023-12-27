@@ -41,7 +41,7 @@
 /*--*/
 .first_customer {
   width: 900px;
-  padding-left: 80px;
+  padding: 0 0 50px 80px;
 }
 .first_customer_title {
   margin-bottom: 30px;

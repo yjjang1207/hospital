@@ -41,7 +41,7 @@
 /*--*/
 .reservation_guide {
   width: 900px;
-  padding-left: 80px;
+  padding: 0 0 50px 80px;
 }
 .guide_title {
   margin-bottom: 30px;

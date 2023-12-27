@@ -57,3 +57,8 @@ input {
 .skip_menu a:focus, .skip_menu a:hover {
     top: 0;
 }
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+}
