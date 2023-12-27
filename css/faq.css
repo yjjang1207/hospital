@@ -41,7 +41,7 @@
 /*--*/
 .question {
   width: 900px;
-  padding-left: 80px;
+  padding: 0 0 50px 80px;
 }
 .question_title {
   margin-bottom: 30px;

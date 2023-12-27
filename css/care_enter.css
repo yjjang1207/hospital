@@ -9,22 +9,30 @@
 }
 .enter_life_side_menu {
   width: 219px;
-  padding-top: 50px;
   border-right: 1px solid #cbcbcb;
 }
 .enter_life_side_menu h2 {
   font-size: 30px;
   border-bottom: 1px solid #cbcbcb;
-  padding: 20px 20px 20px 10px;
+  padding: 50px 0 40px 20px;
 }
 .enter_life_side_menu ul li {
   font-size: 18px;
-  padding: 15px 20px 15px 10px;
+  padding: 15px 0;
   border-bottom: 1px solid #cbcbcb;
 }
 .insurance_guide {
   background: #3586cf;
   color: #fff;
+}
+.care a {
+  padding: 15px 130px 15px 15px;
+}
+.specialty a {
+  padding: 15px 100px 15px 15px;
+}
+.insurance_guide a {
+  padding: 15px 130px 15px 15px;
 }
 .care:hover,
 .specialty:hover {
@@ -33,7 +41,7 @@
 /*--*/
 .enter_total {
   width: 900px;
-  padding-left: 80px;
+  padding: 0 0 50px 80px;
   margin-top: 50px;
 }
 .enter_title {
