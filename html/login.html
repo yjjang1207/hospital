@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/footer.css">
 
     <script type="text/javascript" src="../js/login.js"></script>
+    
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
   </head>
   <body>
     <header id="header">
@@ -207,4 +210,13 @@
     </footer>
 
   </body>
+  <script>
+    let joinbtn = document.querySelector('.join');
+
+    joinbtn.addEventListener('click', function(){
+      if(joinbtn.disabled == false){
+            location.href = "join.html"
+        }
+    })
+  </script>
 </html>

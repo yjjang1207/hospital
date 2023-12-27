@@ -55,38 +55,57 @@
 .footer_family h2 {
   font-size: 15px;
   font-weight: normal;
-  border: 1px solid #cbcbcb;
-  width: 186px;
-  height: 40px;
-  padding: 10px;
-  box-sizing: border-box;
+  /* padding: 10px;
+  box-sizing: border-box; */
 }
-.footer_family ul {
-  width: 186px;
+.family_txt p {
+  padding-top: 6px;
+}
+.family_txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cbcbcb;
+  padding: 4px 10px;
+  gap: 10px;
+  box-sizing: border-box;
+  width: 180px;
+  cursor: pointer;
+}
+.family_cont {
+  /* width: 180px; */
   border: 1px solid #cbcbcb;
   background: #fff;
   color: black;
   padding: 5px 0;
 
+  width: 178px;
+  display: block;
+  position: absolute;
+  bottom: 50px;
+
   display: none;
 }
 .footer_family ul li {
   line-height: 25px;
-  padding: 5px;
+  padding: 5px 10px ;
   box-sizing: border-box;
 }
 .footer_family ul li a {
   display: block;
   width: 170px;
 }
-.footer_family:hover ul {
-  width: 184px;
+/* .footer_family:hover ul {
+  width: 178px;
   display: block;
   position: absolute;
   bottom: 50px;
-}
+} */
 .footer_family a:hover {
   color: #02a8ac;
+}
+.footer_family ul li:last-child {
+  margin-bottom: 20px;
 }
 
 /* @media screen and (max-width: 1024px) {

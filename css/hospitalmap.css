@@ -72,30 +72,29 @@ main {
     margin-bottom: 40px;
 }
 .subway h3 {
-    width: 130px;
+    width: 150px;
     height: 26px;
     background: url(../images/subway.png)no-repeat 0px 0px/27px 25px;
     padding-left: 33px;
     padding-top: 3px;
 }
 .bus h3 {
-    width: 130px;
+    width: 150px;
     height: 26px;
     background: url(../images/bus.png)no-repeat 3px 0px/24px 25px;
     padding-left: 33px;
-    padding-top: px;
 }
 .car h3 {
-    width: 130px;
+    width: 150px;
     height: 26px;
-    background: url(../images/car_map.png)no-repeat 3px 0px/27px 25px;
+    background: url(../images/car_map.png)no-repeat 3px 2px/27px 25px;
     padding-left: 33px;
     padding-top: 4px;
 }
 .parking h3 {
-    width: 130px;
+    width: 150px;
     height: 26px;
-    background: url(../images/parking.png)no-repeat 2px 0px/31px 30px;
+    background: url(../images/parking.png)no-repeat 2px 3px/31px 30px;
     padding-left: 33px;
     padding-top: 5px;
 }

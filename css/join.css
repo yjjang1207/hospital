@@ -18,7 +18,7 @@ main h4 {
     margin-bottom: 5px;
 }
 .terms_personal {
-    -width: 1010px;
+    width: 1010px;
     margin: 0 auto;
 }
 textarea {
@@ -114,8 +114,24 @@ textarea {
     gap: 15px;
     justify-content: center;
 }
-.join_btn_wrap button {
+.join {
     border: 1px solid #cbcbcb;
+    color: #000;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.cancle {
+    border: 1px solid #cbcbcb;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.join_btn_active {
+    border: 1px solid #3586cf;
+    background: #3586cf;
+    color: #fff;
     border-radius: 7px;
     padding: 10px 15px;
     font-size: 15px;
