@@ -98,12 +98,16 @@
   display: block;
 }
 .eulji_news ul li a .date,
-.eulji_qna ul li a .date,
 .eulji_employment ul li a .date,
 .eulji_bid ul li a .date {
   font-size: 15px;
   color: #00a9ac;
   padding: 10px 0;
+}
+.eulji_qna ul li a .date {
+  font-size: 15px;
+  color: #00a9ac;
+  padding: 5px 0;
 }
 .eulji_news ul li a .title,
 .eulji_employment ul li a .title {
