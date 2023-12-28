@@ -134,5 +134,84 @@ window.onload = function () {
     document.querySelector(".ad_btn4 > img").src = "../images/circle_w.png";
     document.querySelector(".ad_btn5 > img").src = "../images/circle_c.png";
   });
+
   //이플릿
+  // $(function () {
+  //   let health_width = $(".e_leaflet_inner li").width();
+
+  //   $(".e_arrow .s_right").click(function () {
+  //     let idxx = $(this).index();
+  //     console.log(idxx);
+  //     $(".e_leaflet_inner ul").animate({ left: -health_width * idxx });
+  //   });
+
+  //   $(".e_leaflet, .e_leaflet_inner").width(health_width);
+
+  //   let health_len = $(".e_leaflet_inner li").length;
+  //   $(".e_leaflet_inner ul").width(health_width * health_len);
+  // });
+
+  // $(function () {
+  //   let slideIndex = 0; // 초기 슬라이드 인덱스 설정
+  //   const slideCount = $(".e_leaflet_inner li").length;
+  //   const slideWidth = $(".e_leaflet_inner li").outerWidth(); // 슬라이드의 너비
+
+  //   $(".e_arrow .s_right").click(function () {
+  //     if (slideIndex < slideCount - 1) {
+  //       slideIndex++; // 다음 슬라이드 인덱스로 이동
+  //     } else {
+  //       slideIndex = 0; // 마지막 슬라이드에서 다음을 클릭하면 첫 번째 슬라이드로 이동
+  //     }
+
+  //     const moveAmount = -slideWidth * slideIndex;
+  //     $(".e_leaflet_inner ul").animate({ left: moveAmount });
+  //   });
+  // });
+
+  $(document).ready(function () {
+    const slideWrapper = $(".e_leaflet_inner ul");
+    const slides = $(".e_leaflet_inner ul li");
+    const totalSlides = slides.length;
+    const slideWidth = slides.first().outerWidth();
+    let currentSlide = 0;
+
+    // 슬라이드의 전체 너비 설정
+    slideWrapper.width(slideWidth * totalSlides);
+
+    // 다음 슬라이드로 이동하는 함수
+    function nextSlide() {
+      if (currentSlide < totalSlides - 1) {
+        currentSlide++;
+      } else {
+        currentSlide = 0;
+      }
+      moveSlide();
+    }
+
+    // 이전 슬라이드로 이동하는 함수
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+      } else {
+        currentSlide = totalSlides - 1;
+      }
+      moveSlide();
+    }
+
+    // 슬라이드를 이동하는 함수
+    function moveSlide() {
+      const moveAmount = -slideWidth * currentSlide;
+      slideWrapper.animate({ left: moveAmount }, 500); // 움직이는 속도는 0.5초 (500ms)
+    }
+
+    // 다음 버튼 클릭 시 다음 슬라이드로 이동
+    $(".e_arrow .s_right").click(function () {
+      nextSlide();
+    });
+
+    // 이전 버튼 클릭 시 이전 슬라이드로 이동
+    $(".e_arrow .s_left").click(function () {
+      prevSlide();
+    });
+  });
 };

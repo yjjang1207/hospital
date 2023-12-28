@@ -1,0 +1,64 @@
+/*--*/
+.e_ad_bg {
+  background: #eee;
+  padding: 50px 0;
+  margin-bottom: 80px;
+}
+/*--*/
+.e_ad {
+  max-width: 1200px;
+  margin: auto;
+}
+.e_ad_title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.e_ad_title h2 {
+  margin-bottom: 10px;
+}
+/*--*/
+.e_ad_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*--*/
+.e_leaflet {
+  position: relative;
+  width: 500px;
+  border: 1px solid #cbcbcb;
+  border-top: 2px solid #00a9ac;
+  background: #fff;
+  padding: 20px 30px;
+}
+/*--*/
+.ad {
+  position: relative;
+}
+.ad_inner {
+  width: 580px;
+  overflow: hidden;
+}
+.ad_inner ul {
+  width: 2900px;
+  display: flex;
+  position: relative;
+}
+.ad_inner ul li {
+  overflow: hidden;
+}
+.ad_inner img {
+  width: 580px;
+  height: 290px;
+}
+.ad_btn {
+  position: absolute;
+  right: -30px;
+  top: 80px;
+}
+.ad_btn ul li {
+  margin-bottom: 10px;
+}
+.ad_btn ul li button img {
+  width: 15px;
+}
