@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>노원을지대학교병원2</title>
-    <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/reset_2.css" />
     <link rel="stylesheet" href="../css/index_2.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <script src="../js/index_2.js"></script>
   </head>
   <body>
     <main class="main" id="main">
@@ -20,16 +20,24 @@
 
           <div class="notice_inner">
             <ul class="notice_first">
-              <li><a href="#none">을지소식</a></li>
-              <li><a href="#none">자주묻는 질문</a></li>
-              <li><a href="#none">인재채용</a></li>
-              <li><a href="#none">입찰정보</a></li>
+              <li class="tab_item1 tab_active">
+                <a href="#none" class="tab_btn1">을지소식</a>
+              </li>
+              <li class="tab_item2">
+                <a href="#none" class="tab_btn2">자주묻는 질문</a>
+              </li>
+              <li class="tab_item3">
+                <a href="#none" class="tab_btn3">인재채용</a>
+              </li>
+              <li class="tab_item4">
+                <a href="#none" class="tab_btn4">입찰정보</a>
+              </li>
             </ul>
 
             <div>
-              <div class="eulji_news">
+              <div id="tab1" class="eulji_news active">
                 <ul>
-                  <li>
+                  <li class="list_on">
                     <a href="#none">
                       <span class="date"> 2023-11-22</span>
                       <span class="title">
@@ -119,7 +127,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_qna">
+              <div id="tab2" class="eulji_qna">
                 <ul class="notice_second">
                   <li>
                     <a href="#none">
@@ -207,7 +215,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_employment">
+              <div id="tab3" class="eulji_employment">
                 <ul class="notice_second">
                   <li>
                     <a href="#none">
@@ -267,7 +275,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_bid">
+              <div id="tab4" class="eulji_bid">
                 <ul class="notice_second">
                   <li>
                     <a href="#none">
@@ -566,19 +574,19 @@
                 <h3 class="hide">작은광고</h3>
                 <div class="ad_inner">
                   <ul>
-                    <li>
+                    <li class="ad_img_1">
                       <img src="../images/BOARD_1.png" alt="" />
                     </li>
-                    <li>
+                    <li class="ad_img_2">
                       <img src="../images/BOARD_2.png" alt="" />
                     </li>
-                    <li>
+                    <li class="ad_img_3">
                       <img src="../images/BOARD_3.png" alt="" />
                     </li>
-                    <li>
+                    <li class="ad_img_4">
                       <img src="../images/BOARD_4.png" alt="" />
                     </li>
-                    <li>
+                    <li class="ad_img_5">
                       <img src="../images/BOARD_5.png" alt="" />
                     </li>
                   </ul>
@@ -587,31 +595,31 @@
                 <div class="ad_btn">
                   <ul>
                     <li>
-                      <button type="button">
+                      <button type="button" class="ad_btn1 active">
                         <img src="../images/circle_c.png" alt="" />
                         <span class="hide">1</span>
                       </button>
                     </li>
                     <li>
-                      <button type="button">
+                      <button type="button" class="ad_btn2">
                         <img src="../images/circle_w.png" alt="" />
                         <span class="hide">2</span>
                       </button>
                     </li>
                     <li>
-                      <button type="button">
+                      <button type="button" class="ad_btn3">
                         <img src="../images/circle_w.png" alt="" />
                         <span class="hide">3</span>
                       </button>
                     </li>
                     <li>
-                      <button type="button">
+                      <button type="button" class="ad_btn4">
                         <img src="../images/circle_w.png" alt="" />
                         <span class="hide">4</span>
                       </button>
                     </li>
                     <li>
-                      <button type="button">
+                      <button type="button" class="ad_btn5">
                         <img src="../images/circle_w.png" alt="" />
                         <span class="hide">5</span>
                       </button>
@@ -670,7 +678,7 @@
         </div>
       </div>
     </main>
-    <script
+    <!-- <script
       type="text/javascript"
       src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=cybmdhud75"
     ></script>
@@ -691,6 +699,6 @@
         position: new naver.maps.LatLng(37.636511, 127.06993),
         map: map,
       });
-    </script>
+    </script> -->
   </body>
 </html>

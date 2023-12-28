@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/index_2.css">
     <link rel="stylesheet" href="../css/footer.css">
+
+    
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8jou175dp3"></script>
     <link rel="icon" href="../images/eulji_ai_favicon.png"/>
     <link rel="apple-touch-icon" href="../images/eulji_ai_favicon.png"/>
 
-    <!-- <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8jou175dp3"></script> -->
-    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8jou175dp3"></script>
-
 
     <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/index_2.js"></script>
 </head>
 <body>
     <div class="skip_menu">
@@ -321,17 +322,25 @@
 
           <div class="notice_inner">
             <ul class="notice_first">
-              <li><a href="#none">을지소식</a></li>
-              <li><a href="#none">자주묻는 질문</a></li>
-              <li><a href="#none">인재채용</a></li>
-              <li><a href="#none">입찰정보</a></li>
+              <li class="tab_item1 tab_active">
+                <a href="#none" class="tab_btn1">을지소식</a>
+              </li>
+              <li class="tab_item2">
+                <a href="#none" class="tab_btn2">자주묻는 질문</a>
+              </li>
+              <li class="tab_item3">
+                <a href="#none" class="tab_btn3">인재채용</a>
+              </li>
+              <li class="tab_item4">
+                <a href="#none" class="tab_btn4">입찰정보</a>
+              </li>
             </ul>
 
             <div>
-              <div class="eulji_news">
+              <div id="tab1" class="eulji_news">
                 <ul>
-                  <li>
-                    <a href="euljimagazine.html">
+                  <li class="list_on">
+                    <a href="#none">
                       <span class="date"> 2023-11-22</span>
                       <span class="title">
                         내과 윤재식 전공의 대한내과학회 74차 추계학술대회서 우수
@@ -346,7 +355,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="euljimagazine.html">
+                    <a href="#none">
                       <span class="date">2023-11-20</span>
                       <span class="title">
                         [유튜브 을지TV] 소아 근시를 늦추는 드림렌즈의 모든 것!
@@ -362,7 +371,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="euljimagazine.html">
+                    <a href="#none">
                       <span class="date">2023-11-10</span>
                       <span class="title">
                         재활의학과 정창현 전공의, 대한재활의학회
@@ -376,7 +385,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="euljimagazine.html">
+                    <a href="#none">
                       <span class="date">2023-11-08</span>
                       <span class="title">
                         [유튜브-을지 TV] 아이 키 멈추는 성조숙증 막으려면 언제
@@ -391,7 +400,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="euljimagazine.html">
+                    <a href="#none">
                       <span class="date">2023-11-08</span>
                       <span class="title">
                         [유튜브-톡투건강TV] 슬기로운 원장생활! 유탁근
@@ -407,7 +416,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="euljimagazine.html">
+                    <a href="#none">
                       <span class="date">2023-11-06</span>
                       <span class="title">
                         인공신장실팀, 대한환자안전학회 학술대회 대상
@@ -420,10 +429,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_qna">
+              <div id="tab2" class="eulji_qna">
                 <ul class="notice_second">
                   <li>
-                    <a href="faq.html">
+                    <a href="#none">
                       <span class="date"></span>
                       <span class="title">
                         [코로나19 건강수칙 안내]확진자 및 동거인 안내문
@@ -435,7 +444,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="faq.html">
+                    <a href="#none">
                       <span class="date"></span>
                       <span class="title">
                         MRI는 어떤 경우에 보험혜택을 받을 수 있나요?
@@ -451,7 +460,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="faq.html">
+                    <a href="#none">
                       <span class="date"></span>
                       <span class="title">
                         CT, MRI, PET-CT 건강보험 적용시 본인부담률을 알려주세요.
@@ -463,7 +472,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="faq.html">
+                    <a href="#none">
                       <span class="date"></span>
                       <span class="title">
                         입원치료 시와 외래치료 시 본인의 부담률을 알려주세요.
@@ -476,7 +485,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="faq.html">
+                    <a href="#none">
                       <span class="date"></span>
                       <span class="title">
                         심사과에서는 어떤 업무를 하나요?
@@ -491,7 +500,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="faq.html">
+                    <a href="#none">
                       <span class="date"></span>
                       <span class="title">
                         노인장기요양보험 의사소견서 발급절차는 어떻게 되나요?
@@ -508,10 +517,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_employment">
+              <div id="tab3" class="eulji_employment">
                 <ul class="notice_second">
                   <li>
-                    <a href="recruitment.html">
+                    <a href="#none">
                       <span class="date">2023-12-26</span>
                       <span class="title"
                         >2024년도 전공의(레지던트 1년차)모집전형 합격자 발표
@@ -520,7 +529,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="recruitment.html">
+                    <a href="#none">
                       <span class="date">2023-12-21</span>
                       <span class="title">
                         간호국 간호부 전문간호팀(소아전담_신생아중환자실) 간호사
@@ -531,7 +540,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="recruitment.html">
+                    <a href="#none">
                       <span class="date">2023-12-20</span>
                       <span class="title">약제부 약사(정규직) 채용공고</span>
                       <span class="txt">약제부/정규직/0명</span>
@@ -539,7 +548,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="recruitment.html">
+                    <a href="#none">
                       <span class="date">2023-12-13</span>
                       <span class="title">
                         간호국 간호간병통합병동 간호조무사 채용공고
@@ -549,7 +558,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="recruitment.html">
+                    <a href="#none">
                       <span class="date">2023-12-12</span>
                       <span class="title">
                         교육수련뷰 도서실 교육팀 사무직 채용공고
@@ -559,7 +568,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="recruitment.html">
+                    <a href="#none">
                       <span class="date">2023-12-12</span>
                       <span class="title">영상의학과 방사선사 채용공고</span>
                       <span class="txt">영상의학과/기간제계약직/0명</span>
@@ -568,10 +577,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_bid">
+              <div id="tab4" class="eulji_bid">
                 <ul class="notice_second">
                   <li>
-                    <a href="bidding.html">
+                    <a href="#none">
                       <span class="date">2023-12-14</span>
                       <span class="title">
                         (재공고)을지재단 및 산하기관 홈페이지 외주 운영 용역사업
@@ -580,7 +589,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="bidding.html">
+                    <a href="#none">
                       <span class="date">2023-12-13</span>
                       <span class="title">
                         (재공고)대전을지대학교병원 재활치료실 치료도구 구입
@@ -589,7 +598,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="bidding.html">
+                    <a href="#none">
                       <span class="date">2023-12-12</span>
                       <span class="title">
                         노원을지대학교병원 신경생리감시장치 1 Set 구매
@@ -598,7 +607,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="bidding.html">
+                    <a href="#none">
                       <span class="date">2023-12-07</span>
                       <span class="title">
                         (재공고)을지재단 MRI 1 Set, CT 1 Set 구매 & MRI S/W
@@ -608,7 +617,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="bidding.html">
+                    <a href="#none">
                       <span class="date">2023-12-07</span>
                       <span class="title">
                         (재공고)의정부/노원/강남을지대학교병원 의료폐기물 수집,
@@ -618,7 +627,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="bidding.html">
+                    <a href="#none">
                       <span class="date">2023-12-07</span>
                       <span class="title">
                         (재공고)대전을지대학교병원 안과 Non-Contact Specular

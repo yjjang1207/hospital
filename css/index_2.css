@@ -1,10 +1,10 @@
-/* .main {
+.main {
   position: relative;
   z-index: 1;
-} */
+}
 /*--*/
 .notice {
-  width: 1200px;
+  max-width: 1200px;
   margin: 100px auto;
 }
 .notice_title {
@@ -33,17 +33,21 @@
   height: 1px;
   background-color: #12b8ba;
 }
-.notice_first li {
-  width: 25%;
+.tab_item1,
+.tab_item2,
+.tab_item3,
+.tab_item4 {
+  width: 300px;
   text-align: center;
   border: 1px solid #cbcbcb;
-  border-left: none;
+  /* border-left: none; */
 }
 .notice_first li a {
   display: block;
   padding: 15px 80px;
+  /* border: 1px solid #cbcbcb; */
 }
-.notice_first li:first-child {
+.tab_active {
   border: 1px solid #00a9ac;
   background: #00a9ac;
   color: white;
@@ -173,7 +177,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 700px;
+  max-width: 700px;
   margin: auto;
 }
 .doctor_img_name span {
@@ -227,7 +231,7 @@
   margin-bottom: 80px;
 }
 .e_ad {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -338,11 +342,10 @@
 }
 .ad_btn ul li button img {
   width: 15px;
-  height: 15px;
 }
 /*--*/
 .map {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto 100px;
 }
 .map_title {
@@ -401,7 +404,7 @@
 }
 
 /*--*/
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .notice_first li a {
     padding: 15px 50px;
   }
@@ -476,4 +479,4 @@
     text-align: center;
     margin-top: 0;
   }
-} */
+}
