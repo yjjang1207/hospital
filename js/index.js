@@ -292,6 +292,70 @@ window.onload = function(){
 
 
 
+    // 탭메뉴
+    const tabBtn1 = document.querySelector(".tab_btn1");
+    const tabBtn2 = document.querySelector(".tab_btn2");
+    const tabBtn3 = document.querySelector(".tab_btn3");
+    const tabBtn4 = document.querySelector(".tab_btn4");
+  
+    const tabInner1 = document.querySelector(".eulji_news");
+    const tabInner2 = document.querySelector(".eulji_qna");
+    const tabInner3 = document.querySelector(".eulji_employment");
+    const tabInner4 = document.querySelector(".eulji_bid");
+  
+    const tabItem1 = document.querySelector(".tab_item1");
+    const tabItem2 = document.querySelector(".tab_item2");
+    const tabItem3 = document.querySelector(".tab_item3");
+    const tabItem4 = document.querySelector(".tab_item4");
+  
+    tabBtn1.addEventListener("click", function () {
+      tabInner1.style.display = "block";
+      tabInner2.style.display = "none";
+      tabInner3.style.display = "none";
+      tabInner4.style.display = "none";
+  
+      tabItem1.classList.add("tab_active");
+      tabItem2.classList.remove("tab_active");
+      tabItem3.classList.remove("tab_active");
+      tabItem4.classList.remove("tab_active");
+    });
+    tabBtn2.addEventListener("click", function () {
+      tabInner1.style.display = "none";
+      tabInner2.style.display = "block";
+      tabInner3.style.display = "none";
+      tabInner4.style.display = "none";
+  
+      tabItem1.classList.remove("tab_active");
+      tabItem2.classList.add("tab_active");
+      tabItem3.classList.remove("tab_active");
+      tabItem4.classList.remove("tab_active");
+    });
+    tabBtn3.addEventListener("click", function () {
+      tabInner1.style.display = "none";
+      tabInner2.style.display = "none";
+      tabInner3.style.display = "block";
+      tabInner4.style.display = "none";
+  
+      tabItem1.classList.remove("tab_active");
+      tabItem2.classList.remove("tab_active");
+      tabItem3.classList.add("tab_active");
+      tabItem4.classList.remove("tab_active");
+    });
+    tabBtn4.addEventListener("click", function () {
+      tabInner1.style.display = "none";
+      tabInner2.style.display = "none";
+      tabInner3.style.display = "none";
+      tabInner4.style.display = "block";
+  
+      tabItem1.classList.remove("tab_active");
+      tabItem2.classList.remove("tab_active");
+      tabItem3.classList.remove("tab_active");
+      tabItem4.classList.add("tab_active");
+    });
+  
+  
+
+
 
 
 
