@@ -135,8 +135,39 @@ window.onload = function () {
     document.querySelector(".ad_btn5 > img").src = "../images/circle_c.png";
   });
 
-  
   //이플릿
+  // $(function () {
+  //   let health_width = $(".e_leaflet_inner li").width();
+
+  //   $(".e_arrow .s_right").click(function () {
+  //     let idxx = $(this).index();
+  //     console.log(idxx);
+  //     $(".e_leaflet_inner ul").animate({ left: -health_width * idxx });
+  //   });
+
+  //   $(".e_leaflet, .e_leaflet_inner").width(health_width);
+
+  //   let health_len = $(".e_leaflet_inner li").length;
+  //   $(".e_leaflet_inner ul").width(health_width * health_len);
+  // });
+
+  // $(function () {
+  //   let slideIndex = 0; // 초기 슬라이드 인덱스 설정
+  //   const slideCount = $(".e_leaflet_inner li").length;
+  //   const slideWidth = $(".e_leaflet_inner li").outerWidth(); // 슬라이드의 너비
+
+  //   $(".e_arrow .s_right").click(function () {
+  //     if (slideIndex < slideCount - 1) {
+  //       slideIndex++; // 다음 슬라이드 인덱스로 이동
+  //     } else {
+  //       slideIndex = 0; // 마지막 슬라이드에서 다음을 클릭하면 첫 번째 슬라이드로 이동
+  //     }
+
+  //     const moveAmount = -slideWidth * slideIndex;
+  //     $(".e_leaflet_inner ul").animate({ left: moveAmount });
+  //   });
+  // });
+
   $(document).ready(function () {
     const slideWrapper = $(".e_leaflet_inner ul");
     const slides = $(".e_leaflet_inner ul li");
@@ -184,4 +215,3 @@ window.onload = function () {
     });
   });
 };
-

@@ -7,7 +7,7 @@ window.onload = function(){
     let utelLast = document.getElementById('u_tel_last');
     let uemail = document.getElementById('u_email');
     let joinBtn = document.querySelector('.join')
-    let cancelBtn = document.querySelector('.cancle')
+    let cancelBtn = document.querySelector('.cancel')
 
 
 
@@ -83,7 +83,7 @@ window.onload = function(){
 
 
     cancelBtn.addEventListener('click', function(){
-        if(joinBtn.disabled == false){
+        if(cancelBtn.disabled == false){
             location.href = "index.html"
         }
     });

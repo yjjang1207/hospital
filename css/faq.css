@@ -1,14 +1,14 @@
-f.faq_main {
+.faq_main {
   position: relative;
   z-index: 1;
 }
 .faq_wrap {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   margin: auto;
 }
 .faq_side_menu {
-  width: 218px;
+  width: 219px;
   border-right: 1px solid #cbcbcb;
 }
 .faq_side_menu h2 {
@@ -77,39 +77,39 @@ f.faq_main {
   font-size: 13px;
   margin-bottom: 5px;
 }
-/*--*/
-.question_top_menu ul {
-  overflow: hidden;
 
-  width: 600px;
+
+
+/*--*/
+.list_wrap {
   display: flex;
   margin-bottom: 30px;
-  text-align: center;
-  line-height: 33px;
 }
-.question_top_menu ul li {
+.list1, .list2, .list3, .list4, .list5 {
   width: 120px;
   height: 35px;
-  /* padding: 10px 30px; */
   border: 1px solid #cbcbcb;
-  border-left: none;
-}
-/* .question_top_menu ul .list1 .btn1 {
-  border: 1px solid #3586cf;
-  background: #3586cf;
-  color: #fff;
-} */
-.question_top_menu ul li:first-child {
-  border: 1px solid #3586cf;
-  background: #3586cf;
-  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .list_wrap li a {
-  padding: 7px 29px;
+  padding: 8px 32px;
 }
-.list_wrap li:last-child a {
-  padding: 7px 43px;
+.list5 .btn {
+  padding: 8px 46px;
 }
+.listactive {
+  border: 1px solid #3586cf;
+  background: #3596cf;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+
+
+
 /*--*/
 .question_inner ul {
   border-top: 2px solid #3586cf;
@@ -132,6 +132,102 @@ f.faq_main {
   background: #f1f1f1;
 }
 .question_inner ul li div {
+  display: none;
+}
+/*--*/
+.use_guide ul {
+  border-top: 2px solid #3586cf;
+  border-bottom: 2px solid #3586cf;
+  margin-bottom: 20px;
+}
+.use_guide ul li {
+  border-bottom: 1px solid #cbcbcb;
+}
+.use_guide ul li > p {
+  padding: 20px 0 20px 20px;
+}
+.use_guide ul li > p:hover {
+  color: #3586cf;
+  cursor: pointer;
+}
+.use_guide ul li div {
+  padding: 30px 20px;
+  border-top: 1px dotted #3586cf;
+  background: #f1f1f1;
+}
+.use_guide ul li div {
+  display: none;
+}
+/*--*/
+.care_guide ul {
+  border-top: 2px solid #3586cf;
+  border-bottom: 2px solid #3586cf;
+  margin-bottom: 20px;
+}
+.care_guide ul li {
+  border-bottom: 1px solid #cbcbcb;
+}
+.care_guide ul li > p {
+  padding: 20px 0 20px 20px;
+}
+.care_guide ul li > p:hover {
+  color: #3586cf;
+  cursor: pointer;
+}
+.care_guide ul li div {
+  padding: 30px 20px;
+  border-top: 1px dotted #3586cf;
+  background: #f1f1f1;
+}
+.care_guide ul li div {
+  display: none;
+}
+/*--*/
+.round_guide ul {
+  border-top: 2px solid #3586cf;
+  border-bottom: 2px solid #3586cf;
+  margin-bottom: 20px;
+}
+.round_guide ul li {
+  border-bottom: 1px solid #cbcbcb;
+}
+.round_guide ul li > p {
+  padding: 20px 0 20px 20px;
+}
+.round_guide ul li > p:hover {
+  color: #3586cf;
+  cursor: pointer;
+}
+.round_guide ul li div {
+  padding: 30px 20px;
+  border-top: 1px dotted #3586cf;
+  background: #f1f1f1;
+}
+.round_guide ul li div {
+  display: none;
+}
+/*--*/
+.etc_guide ul {
+  border-top: 2px solid #3586cf;
+  border-bottom: 2px solid #3586cf;
+  margin-bottom: 20px;
+}
+.etc_guide ul li {
+  border-bottom: 1px solid #cbcbcb;
+}
+.etc_guide ul li > p {
+  padding: 20px 0 20px 20px;
+}
+.etc_guide ul li > p:hover {
+  color: #3586cf;
+  cursor: pointer;
+}
+.etc_guide ul li div {
+  padding: 30px 20px;
+  border-top: 1px dotted #3586cf;
+  background: #f1f1f1;
+}
+.etc_guide ul li div {
   display: none;
 }
 /*--*/

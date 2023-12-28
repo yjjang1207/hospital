@@ -85,3 +85,6 @@
   display: block;
   bottom: 5px;
 }
+.small {
+  font-size: 14px;
+}

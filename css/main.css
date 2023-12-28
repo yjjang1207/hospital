@@ -22,7 +22,7 @@ main {
     background: #51597d;
 }
 .main_image_background4 {
-    background: #4a7ecc;
+    background: #385f9a;
 }
 .main_image_background5 {
     background: #dff1ec;
@@ -177,7 +177,7 @@ main {
 .active {
     width: 15px;
     height: 15px;
-    background: url(../images/circle_c.png)no-repeat center/15px 15px !important
+    background: url(../images/circle_b.png)no-repeat center/15px 15px !important
     /* text-indent: -9999px; */
 }
 .main_image_btn1, .main_image_btn2, .main_image_btn3, .main_image_btn4, .main_image_btn5, .main_image_btn6 {
