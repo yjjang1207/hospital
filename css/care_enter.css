@@ -66,6 +66,9 @@
   font-weight: bold;
   border: 1px solid #aaa;
 }
+.care_tap_menu ul li a {
+  padding: 15px 170px;
+}
 .care_tap_menu ul li:first-child {
   color: #fff;
   background: #3586cf;

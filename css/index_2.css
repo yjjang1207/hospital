@@ -353,7 +353,7 @@
 }
 .map_icon ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: center;
   margin-bottom: 30px;
 }

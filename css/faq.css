@@ -67,11 +67,12 @@
 }
 /*--*/
 .question_top_menu ul {
+  overflow: hidden;
+
   width: 600px;
   display: flex;
   margin-bottom: 30px;
   text-align: center;
-  /* border: 1px solid #cbcbcb; */
 }
 .question_top_menu ul li {
   width: 60px;
@@ -79,11 +80,16 @@
   border: 1px solid #cbcbcb;
   border-left: none;
 }
-.question_top_menu ul li:first-child {
+.question_top_menu ul .list1 .btn1 {
   border: 1px solid #3586cf;
   background: #3586cf;
   color: #fff;
 }
+/* .question_top_menu ul li:first-child {
+  border: 1px solid #3586cf;
+  background: #3586cf;
+  color: #fff;
+} */
 /*--*/
 .question_inner ul {
   border-top: 2px solid #3586cf;
@@ -92,11 +98,18 @@
 }
 .question_inner ul li {
   border-bottom: 1px solid #cbcbcb;
+}
+.question_inner ul li > p {
   padding: 20px 0 20px 20px;
+}
+.question_inner ul li > p:hover {
+  color: #3586cf;
   cursor: pointer;
 }
-.question_inner ul li :hover {
-  color: #3586cf;
+.question_inner ul li div {
+  padding: 30px 20px;
+  border-top: 1px dotted #3586cf;
+  background: #f1f1f1;
 }
 .question_inner ul li div {
   display: none;
@@ -157,4 +170,9 @@
   padding: 15px 0 15px 50px;
   border: 1px solid #cbcbcb;
   color: gray;
+}
+
+/*--*/
+.active .faq_1_b {
+  display: block;
 }

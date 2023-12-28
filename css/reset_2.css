@@ -39,6 +39,11 @@ legend,
 label {
   border-style: none;
 }
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
 .hide {
   position: absolute; /*앱솔루트를 사용하면 부모 자식이 인식을 못하는 상태로 떠서 어디로든 이동 가능*/
   width: 0;

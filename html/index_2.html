@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>노원을지대학교병원2</title>
-    <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/reset_2.css" />
     <link rel="stylesheet" href="../css/index_2.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <script src="../js/index_2.js"></script>
   </head>
   <body>
     <main class="main" id="main">
@@ -20,16 +20,16 @@
 
           <div class="notice_inner">
             <ul class="notice_first">
-              <li><a href="#none">을지소식</a></li>
-              <li><a href="#none">자주묻는 질문</a></li>
-              <li><a href="#none">인재채용</a></li>
-              <li><a href="#none">입찰정보</a></li>
+              <li class="tap_item active"><a href="#none">을지소식</a></li>
+              <li class="tap_item"><a href="#none">자주묻는 질문</a></li>
+              <li class="tap_item"><a href="#none">인재채용</a></li>
+              <li class="tap_item"><a href="#none">입찰정보</a></li>
             </ul>
 
             <div>
-              <div class="eulji_news">
+              <div id="tab1" class="eulji_news active">
                 <ul>
-                  <li>
+                  <li class="list_on">
                     <a href="#none">
                       <span class="date"> 2023-11-22</span>
                       <span class="title">
@@ -119,7 +119,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_qna">
+              <div id="tab2" class="eulji_qna">
                 <ul class="notice_second">
                   <li>
                     <a href="#none">
@@ -207,7 +207,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_employment">
+              <div id="tab3" class="eulji_employment">
                 <ul class="notice_second">
                   <li>
                     <a href="#none">
@@ -267,7 +267,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="eulji_bid">
+              <div id="tab4" class="eulji_bid">
                 <ul class="notice_second">
                   <li>
                     <a href="#none">
