@@ -33,17 +33,21 @@
   height: 1px;
   background-color: #12b8ba;
 }
-.notice_first li {
-  width: 25%;
+.tab_item1,
+.tab_item2,
+.tab_item3,
+.tab_item4 {
+  width: 300px;
   text-align: center;
   border: 1px solid #cbcbcb;
-  border-left: none;
+  /* border-left: none; */
 }
 .notice_first li a {
   display: block;
   padding: 15px 80px;
+  /* border: 1px solid #cbcbcb; */
 }
-.notice_first li:first-child {
+.tab_active {
   border: 1px solid #00a9ac;
   background: #00a9ac;
   color: white;
