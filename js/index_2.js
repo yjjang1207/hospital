@@ -1,33 +1,5 @@
 window.onload = function () {
-  const adImg1 = document.querySelector(".ad_img_1");
-  const adImg2 = document.querySelector(".ad_img_2");
-  const adImg3 = document.querySelector(".ad_img_3");
-  const adImg4 = document.querySelector(".ad_img_4");
-  const adImg5 = document.querySelector(".ad_img_5");
-
-  const adBtn1 = document.querySelector(".ad_btn1");
-  const adBtn2 = document.querySelector(".ad_btn2");
-  const adBtn3 = document.querySelector(".ad_btn3");
-  const adBtn4 = document.querySelector(".ad_btn4");
-  const adBtn5 = document.querySelector(".ad_btn5");
-
-  let mainImageWrap = document.querySelector(".ad");
-
-  adBtn1.addEventListener("click", function () {
-    adImg1.style.display = "flex";
-    adImg2.style.display = "none";
-    adImg3.style.display = "none";
-    adImg4.style.display = "none";
-    adImg5.style.display = "none";
-    adBtn1.classList.add("active");
-    adBtn2.classList.remove("active");
-    adBtn3.classList.remove("active");
-    adBtn4.classList.remove("active");
-    adBtn5.classList.remove("active");
-  });
-
-  //
-
+  //notice
   const tabBtn1 = document.querySelector(".tab_btn1");
   const tabBtn2 = document.querySelector(".tab_btn2");
   const tabBtn3 = document.querySelector(".tab_btn3");
@@ -88,5 +60,79 @@ window.onload = function () {
     tabItem4.classList.add("tab_active");
   });
 
-  //
+  //doctor
+  // $(function () {
+  //   let doctor_width = $(".doctor div").width();
+
+  //   $(".arrow button").click(function () {
+  //     let idxd = $(this).index();
+  //     console.log(idxd);
+  //     $(".doctor ul").animate({ left: -doctor_width * idxd });
+  //   });
+
+  //   $(".doctor_wrap, .doctor").width(doctor_width);
+
+  //   let doctor_len = $(".doctor li").length;
+  //   $(".doctor ul").width(doctor_width * doctor_len);
+  // });
+
+  //miniad
+  $(function () {
+    let img_width = $(".ad_inner img").width();
+
+    $(".ad_btn li").click(function () {
+      let idx = $(this).index();
+      console.log(idx);
+      $(".ad_inner ul").animate({ left: -img_width * idx });
+    });
+
+    $(".ad, .ad_inner").width(img_width);
+
+    let item_len = $(".ad_inner li").length;
+    $(".ad_inner ul").width(img_width * item_len);
+  });
+
+  //miniad btn
+  const adBtn1 = document.querySelector(".ad_btn1");
+  const adBtn2 = document.querySelector(".ad_btn2");
+  const adBtn3 = document.querySelector(".ad_btn3");
+  const adBtn4 = document.querySelector(".ad_btn4");
+  const adBtn5 = document.querySelector(".ad_btn5");
+
+  adBtn1.addEventListener("click", function () {
+    document.querySelector(".ad_btn1 > img").src = "../images/circle_c.png";
+    document.querySelector(".ad_btn2 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn3 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn4 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn5 > img").src = "../images/circle_w.png";
+  });
+  adBtn2.addEventListener("click", function () {
+    document.querySelector(".ad_btn1 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn2 > img").src = "../images/circle_c.png";
+    document.querySelector(".ad_btn3 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn4 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn5 > img").src = "../images/circle_w.png";
+  });
+  adBtn3.addEventListener("click", function () {
+    document.querySelector(".ad_btn1 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn2 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn3 > img").src = "../images/circle_c.png";
+    document.querySelector(".ad_btn4 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn5 > img").src = "../images/circle_w.png";
+  });
+  adBtn4.addEventListener("click", function () {
+    document.querySelector(".ad_btn1 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn2 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn3 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn4 > img").src = "../images/circle_c.png";
+    document.querySelector(".ad_btn5 > img").src = "../images/circle_w.png";
+  });
+  adBtn5.addEventListener("click", function () {
+    document.querySelector(".ad_btn1 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn2 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn3 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn4 > img").src = "../images/circle_w.png";
+    document.querySelector(".ad_btn5 > img").src = "../images/circle_c.png";
+  });
+  //이플릿
 };
